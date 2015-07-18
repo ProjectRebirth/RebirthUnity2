@@ -10,19 +10,7 @@ public class BaseSpriteStats : MonoBehaviour{
 	public bool isRight;
 	private bool inAir;
 	private bool isWalking;
-
-
-	protected virtual void Update() {
-
-	}
-
-	protected virtual void Start() {
-
-	}
-
-	protected virtual void FixedUpdate() {
-
-	}
+	
 
 	public bool getInAir() {
 		return inAir;
@@ -48,6 +36,14 @@ public class BaseSpriteStats : MonoBehaviour{
 		return horizontalMomentum;
 	}
 
+
+	public bool getIsRight() {
+		return isRight;
+	}
+
+	public void setIsRight(bool isRight) {
+		this.isRight = isRight;
+	}
 
 }
 

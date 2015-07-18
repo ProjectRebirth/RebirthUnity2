@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	void Update() {
 		float horizontalMovement = Input.GetAxisRaw ("Horizontal");
 		float verticalMovement = Input.GetAxisRaw ("Vertical");
-		bool jumpKeyDown = Input.GetButton ("Jump");
+		bool jumpKeyDown = Input.GetButtonDown ("Jump");
 
 		mechanics.moveVertical (verticalMovement);
 		mechanics.moveHorizontal (horizontalMovement);

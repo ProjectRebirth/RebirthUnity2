@@ -30,7 +30,12 @@ public class BaseMechanics : MonoBehaviour {
 	}
 
 	public virtual void jump(bool jumpButtonDown) {
-
+		Rigidbody2D rigid = GetComponent<Rigidbody2D> ();
+		if (!baseStats.getInAir () && jumpButtonDown) {
+			float x = rigid.velocity.x;
+			float y = baseStats.jumpSpeed;
+			rigid.velocity = new Vector2(x, y);
+		}
 	}
 
 	protected virtual void updateHorizontalMovement() {

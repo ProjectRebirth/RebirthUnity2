@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 930c8deb651916c4d967bb6ac5738868
-timeCreated: 1437166299
+guid: 399768e08bccae94bb75e3c82b8d66ab
+timeCreated: 1437198946
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -67,8 +67,8 @@ TextureImporter:
         y: 2
         width: 40
         height: 33
-      alignment: 9
-      pivot: {x: .300000012, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_1
       rect:
@@ -77,8 +77,8 @@ TextureImporter:
         y: 2
         width: 34
         height: 33
-      alignment: 9
-      pivot: {x: .349999994, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_2
       rect:
@@ -87,8 +87,8 @@ TextureImporter:
         y: 2
         width: 29
         height: 35
-      alignment: 9
-      pivot: {x: .400000006, y: 0}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_3
       rect:
@@ -98,7 +98,7 @@ TextureImporter:
         width: 23
         height: 39
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_4
       rect:
@@ -108,7 +108,7 @@ TextureImporter:
         width: 19
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_5
       rect:
@@ -118,7 +118,7 @@ TextureImporter:
         width: 19
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_6
       rect:
@@ -128,7 +128,7 @@ TextureImporter:
         width: 19
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_7
       rect:
@@ -138,7 +138,7 @@ TextureImporter:
         width: 22
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_8
       rect:
@@ -148,7 +148,7 @@ TextureImporter:
         width: 21
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_9
       rect:
@@ -158,17 +158,17 @@ TextureImporter:
         width: 19
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: ReloadGrayson_10
       rect:
         serializedVersion: 2
         x: 510
         y: 3
-        width: 40
+        width: 20
         height: 33
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .577777088, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

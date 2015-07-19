@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1235c467dd04b0a4fb13195dac830438
-timeCreated: 1437197714
+timeCreated: 1437251558
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -81,7 +81,7 @@ TextureImporter:
         width: 14
         height: 47
       alignment: 9
-      pivot: {x: .5, y: .104255192}
+      pivot: {x: .700002253, y: .0787236616}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_1
       rect:
@@ -91,7 +91,7 @@ TextureImporter:
         width: 17
         height: 42
       alignment: 9
-      pivot: {x: .564706266, y: .090475902}
+      pivot: {x: .75999999, y: .074000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_2
       rect:
@@ -101,7 +101,7 @@ TextureImporter:
         width: 19
         height: 47
       alignment: 9
-      pivot: {x: .615789294, y: .189361572}
+      pivot: {x: .783999979, y: .170000002}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_3
       rect:
@@ -111,7 +111,7 @@ TextureImporter:
         width: 14
         height: 47
       alignment: 9
-      pivot: {x: .478571624, y: .104255192}
+      pivot: {x: .699999988, y: .0786999986}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_4
       rect:
@@ -121,7 +121,7 @@ TextureImporter:
         width: 17
         height: 42
       alignment: 9
-      pivot: {x: .552941263, y: .095238097}
+      pivot: {x: .75999999, y: .074000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_5
       rect:
@@ -131,7 +131,7 @@ TextureImporter:
         width: 19
         height: 47
       alignment: 9
-      pivot: {x: .605263174, y: .187233776}
+      pivot: {x: .783999979, y: .170000002}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_6
       rect:
@@ -141,7 +141,7 @@ TextureImporter:
         width: 14
         height: 47
       alignment: 9
-      pivot: {x: .478571624, y: .106382981}
+      pivot: {x: .699999988, y: .0786999986}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_7
       rect:
@@ -151,7 +151,7 @@ TextureImporter:
         width: 17
         height: 42
       alignment: 9
-      pivot: {x: .552941263, y: .0928569958}
+      pivot: {x: .75999999, y: .074000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_8
       rect:
@@ -161,7 +161,7 @@ TextureImporter:
         width: 19
         height: 47
       alignment: 9
-      pivot: {x: .605263174, y: .187233776}
+      pivot: {x: .783999979, y: .170000002}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_9
       rect:
@@ -171,7 +171,7 @@ TextureImporter:
         width: 14
         height: 47
       alignment: 9
-      pivot: {x: .478571743, y: .102127723}
+      pivot: {x: .699999988, y: .0786999986}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_10
       rect:
@@ -181,7 +181,7 @@ TextureImporter:
         width: 17
         height: 42
       alignment: 9
-      pivot: {x: .564706266, y: .095238097}
+      pivot: {x: .75999999, y: .074000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_11
       rect:
@@ -191,7 +191,7 @@ TextureImporter:
         width: 19
         height: 47
       alignment: 9
-      pivot: {x: .605263174, y: .189361572}
+      pivot: {x: .783999979, y: .170000002}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_12
       rect:

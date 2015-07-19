@@ -1,15 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class IMelee : MonoBehaviour {
+public interface IMelee {
+	bool checkCanMeleeAttack();
+	bool checkIsAttacking();
+	void meleeAttack(bool meleeButtonDown);
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GunLogic : MonoBehaviour {
+public abstract class GunLogic : MonoBehaviour {
 	public Projectile projectile;//The bullet or other projectile that will be fired from the weapon
-	public BaseMechanics weaponOwner;
+	public BaseSpriteStats weaponOwner;
 	private float ammoRatio;//This is the ratio of ammo currently contained compared to the max ammo that can be held
 	public int currentMagazine;
 	public int maxMagazine;
@@ -25,11 +25,22 @@ public class GunLogic : MonoBehaviour {
 		}
 	}
 
-	public void fireProjectile() {
+	public abstract void fireWeapon ();
 
+	public bool getIsLookingUp() {
+		return weaponOwner.getLastVerticalInput () > 0;
 	}
 
+	/// <summary>
+	/// Quick way to check the percentage of ammo currently in the magazine to the maximum ammo the magazine can hold.
+	/// </summary>
+	/// <returns>The ammo ratio.</returns>
 	public float getAmmoRatio() {
 		return (float)currentMagazine / (float)maxMagazine;
+	}
+
+
+	public virtual void reload() {
+		currentMagazine = maxMagazine;
 	}
 }

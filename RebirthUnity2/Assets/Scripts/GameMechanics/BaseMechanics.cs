@@ -42,6 +42,7 @@ public class BaseMechanics : MonoBehaviour {
 	/// </summary>
 	/// <param name="horizontalInput">Horizontal input.</param>
 	public virtual void moveHorizontal(float horizontalInput) {
+		baseStats.setLastHorizontalInput (horizontalInput);
 		if (horizontalInput > 0) {
 			baseStats.setIsRight (true);
 		} else if (horizontalInput < 0) {
@@ -51,7 +52,7 @@ public class BaseMechanics : MonoBehaviour {
 	}
 
 	public virtual void moveVertical(float verticalInput) {
-
+		baseStats.setLastVerticalInput (verticalInput);
 	}
 
 	public virtual void jump(bool jumpButtonDown) {

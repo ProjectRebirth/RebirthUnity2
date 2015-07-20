@@ -8,7 +8,7 @@ public abstract class GunLogic : MonoBehaviour {
 	public int currentMagazine;
 	public int maxMagazine;
 	public float coolDown;//This is the interval of time between the time one bullet can be fired until the next
-	public float spread;//The spread that a gun will have when firing its weapons\
+	public float spread;//The spread of the gun. A spread of one  means that the bullet has a chance of shooting at a 45 degree angle.
 
 	private float coolDownTimer;
 
@@ -27,8 +27,16 @@ public abstract class GunLogic : MonoBehaviour {
 
 	public abstract void fireWeapon ();
 
-	public bool getIsLookingUp() {
+	public virtual bool getIsLookingUp() {
 		return weaponOwner.getLastVerticalInput () > 0;
+	}
+
+	/// <summary>
+	/// Checks if the player is still shooting there gun. The default method of doing this is to check if the gun is completely cooled down.
+	/// </summary>
+	/// <returns><c>true</c>, if is firing was gotten, <c>false</c> otherwise.</returns>
+	public virtual bool getIsFiring() {
+		return coolDownTimer > 0f;
 	}
 
 	/// <summary>
@@ -39,6 +47,13 @@ public abstract class GunLogic : MonoBehaviour {
 		return (float)currentMagazine / (float)maxMagazine;
 	}
 
+	/// <summary>
+	/// Gets the cool down timer....derp
+	/// </summary>
+	/// <returns>The cool down timer.</returns>
+	public float getCoolDownTimer() {
+		return coolDownTimer;
+	}
 
 	public virtual void reload() {
 		currentMagazine = maxMagazine;

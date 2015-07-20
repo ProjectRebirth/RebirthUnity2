@@ -6,7 +6,7 @@ using System.Collections;
 /// Other controllers will be added as needed for different situations
 /// </summary>
 public class PlayerController : MonoBehaviour {
-	public BaseMechanics mechanics;
+	public GraysonMechanics mechanics;
 
 	void Update() {
 		float horizontalMovement = Input.GetAxisRaw ("Horizontal");
@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 		mechanics.moveVertical (verticalMovement);
 		mechanics.moveHorizontal (horizontalMovement);
 		mechanics.jump (jumpKeyDown);
+		mechanics.fireWeapon (Input.GetButtonDown("Fire"));
 
 	}
 

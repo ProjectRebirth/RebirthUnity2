@@ -11,6 +11,7 @@ public abstract class ProjectileMechanics: MonoBehaviour {
 	}
 
 	protected virtual void FixedUpdate() {
+		print(projectileStats.getDirection ());
 		updateMovement ();
 	}
 

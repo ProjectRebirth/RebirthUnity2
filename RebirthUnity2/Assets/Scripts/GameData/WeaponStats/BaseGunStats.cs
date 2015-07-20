@@ -48,6 +48,14 @@ public class BaseGunStats : MonoBehaviour {
 		}
 	}
 
+	public void decrementCurrentMagazine(int decrementValue) {
+		currentMagazine -= decrementValue;
+	}
+
+	public void decrementCurrentMagazine() {
+		decrementCurrentMagazine (1);
+	}
+
 	/// <summary>
 	/// Checks if the player is looking up. This will be used to orient the gun to look in the up direction in the future.
 	/// </summary>
@@ -58,6 +66,10 @@ public class BaseGunStats : MonoBehaviour {
 
 	public void resetCoolDownTimer() {
 		coolDownTimer = coolDown;
+	}
+
+	public bool getIsEmpty() {
+		return currentMagazine <= 0;
 	}
 
 }

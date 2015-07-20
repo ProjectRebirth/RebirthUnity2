@@ -9,13 +9,21 @@ public class AssaultRifle : GunLogic {
 	}
 
 	public override void fireWeapon() {
-		if (!rifleStats.getIsFiring ()) {
+		if (!rifleStats.getIsFiring () && !baseGunStats.getIsEmpty()) {
 			GameObject newBullet = (GameObject)Instantiate (rifleStats.projectile.gameObject, transform.position, new Quaternion ());
+			ProjectileStats bulletStats = newBullet.GetComponent<ProjectileStats>();
+			bool isRight = rifleStats.weaponOwner.getIsRight();
+			if (isRight) {
+				bulletStats.setDirection(new Vector2(1, 0));
+			}
+			else {
+				bulletStats.setDirection(new Vector2(-1, 0));
+			}
 			rifleStats.resetCoolDownTimer();
+			baseGunStats.decrementCurrentMagazine();
 		}
 	}
 
 	public override void reload() {
-
 	}
 }

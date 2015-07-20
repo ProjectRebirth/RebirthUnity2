@@ -8,7 +8,7 @@ public class ProjectileStats : MonoBehaviour {
 	private Vector3 originalPosition;
 
 	protected virtual void Start() {
-		direction = new Vector2 (1, 0);//The default direction of the projectile will be straight to the right
+		//direction = new Vector2 (1, 0);//The default direction of the projectile will be straight to the right
 		originalPosition = transform.position;
 	}
 
@@ -30,6 +30,7 @@ public class ProjectileStats : MonoBehaviour {
 	}
 
 	public void setDirection(Vector2 vec) {
-		this.direction = VectorLogic.normalizeVector2(vec);
+		this.direction = vec;
 	}
 }
+

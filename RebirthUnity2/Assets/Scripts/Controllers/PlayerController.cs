@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour {
 		bool jumpKeyDown = Input.GetButtonDown ("Jump");
 		
 		
-		//mechanics.jump (jumpKeyDown);
+		mechanics.jump (jumpKeyDown);
 	}
 
 	void Start() {

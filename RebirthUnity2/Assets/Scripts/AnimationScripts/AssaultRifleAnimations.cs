@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class AssaultRifleAnimations : MonoBehaviour {
-	public GunLogic assaultRifle;
+	public BaseGunStats assaultRifle;
 	public Animator rifleAnimator;
 
 	void Update() {

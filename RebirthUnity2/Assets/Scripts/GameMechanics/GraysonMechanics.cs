@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GraysonMechanics : BaseMechanics, IShooter {
 	public GunLogic assaultRifle;
-
+	public BaseGunStats rifleStats;
 
 	public void fireWeapon(bool fireWeaponDown) {
 		if (checkCanFire () && fireWeaponDown) {
@@ -12,7 +12,7 @@ public class GraysonMechanics : BaseMechanics, IShooter {
 	}
 
 	public bool getIsFiring() {
-		return assaultRifle.getIsFiring();
+		return rifleStats.getIsFiring();
 	}
 
 	/// <summary>

@@ -9,8 +9,10 @@ public class AssaultRifle : GunLogic {
 	}
 
 	public override void fireWeapon() {
-
-		GameObject newBullet = (GameObject)Instantiate (rifleStats.projectile.gameObject, transform.position, new Quaternion ());
+		if (!rifleStats.getIsFiring ()) {
+			GameObject newBullet = (GameObject)Instantiate (rifleStats.projectile.gameObject, transform.position, new Quaternion ());
+			rifleStats.resetCoolDownTimer();
+		}
 	}
 
 	public override void reload() {

@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour {
 		mechanics.moveVertical (verticalMovement);
 		mechanics.moveHorizontal (horizontalMovement);
 		mechanics.jump (jumpKeyDown);
-		mechanics.fireWeapon (Input.GetButtonDown("Fire"));
+		mechanics.fireWeapon (Input.GetButton("FireMain"));
 
 	}
 

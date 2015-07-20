@@ -19,4 +19,6 @@ public class VectorLogic {
 
 		return Mathf.Sqrt (x * x + y * y);
 	}
+
+
 }

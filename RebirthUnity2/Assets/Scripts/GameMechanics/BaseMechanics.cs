@@ -33,7 +33,6 @@ public class BaseMechanics : MonoBehaviour {
 	protected virtual void FixedUpdate() {
 		updateHorizontalMovement ();
 		updateVerticalMovement ();
-
 	}
 
 	/// <summary>

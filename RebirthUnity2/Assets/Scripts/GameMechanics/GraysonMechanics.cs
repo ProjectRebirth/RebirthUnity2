@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class GraysonMechanics : BaseMechanics, IShooter {
-	public GunLogic assaultRifle;
+	public AssaultRifle assaultRifle;
 	public BaseGunStats rifleStats;
 
 	public void fireWeapon(bool fireWeaponDown) {
@@ -24,5 +24,14 @@ public class GraysonMechanics : BaseMechanics, IShooter {
 		return true;
 	}
 
+	public void reloadMain(bool reloadDown) {
+		if (reloadDown && checkCanReload()) {
+			assaultRifle.reload ();
+		}
+	}
+
+	private bool checkCanReload() {
+		return !rifleStats.getIsFiring();
+	}
 
 }

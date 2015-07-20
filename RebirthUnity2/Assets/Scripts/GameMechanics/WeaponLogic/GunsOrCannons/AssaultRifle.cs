@@ -25,5 +25,6 @@ public class AssaultRifle : GunLogic {
 	}
 
 	public override void reload() {
+		rifleStats.setCurrentMagazine (rifleStats.maxMagazine);
 	}
 }

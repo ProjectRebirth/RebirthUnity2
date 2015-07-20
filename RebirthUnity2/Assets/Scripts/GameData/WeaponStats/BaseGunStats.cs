@@ -48,6 +48,14 @@ public class BaseGunStats : MonoBehaviour {
 		}
 	}
 
+	public int getCurrentMagazine() {
+		return currentMagazine;
+	}
+
+	public void setCurrentMagazine(int currentMagazine) {
+		this.currentMagazine = currentMagazine;
+	}
+
 	public void decrementCurrentMagazine(int decrementValue) {
 		currentMagazine -= decrementValue;
 	}

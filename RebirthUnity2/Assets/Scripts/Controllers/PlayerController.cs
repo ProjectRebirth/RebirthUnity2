@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour {
 
 	void Update() {
 
-		mechanics.fireWeapon (Input.GetButton("FireMain"));
-		mechanics.reloadMain (Input.GetButtonDown ("Reload"));
+		//mechanics.fireWeapon (Input.GetButton("FireMain"));
+		//mechanics.reloadMain (Input.GetButtonDown ("Reload"));
 
 	}
 

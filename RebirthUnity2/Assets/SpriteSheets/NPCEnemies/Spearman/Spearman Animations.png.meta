@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: f78ba3f5c2d8de341b4cbd835a6db1c0
+timeCreated: 1437445057
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Spearman_1
+    21300002: Spearman Animations_1
+    21300004: Spearman Animations_2
+    21300006: Spearman Animations_3
+    21300008: Spearman Animations_4
+    21300010: Spearman Animations_5
+    21300012: Spearman Animations_6
+    21300014: Spearman Animations_7
+    21300016: Spearman Animations_8
+    21300018: Spearman Animations_9
+    21300020: Spearman Animations_10
+    21300022: Spearman Animations_11
+    21300024: Spearman Animations_12
+    21300026: Spearman Animations_13
+    21300028: Spearman Animations_14
+    21300030: Spearman Animations_15
+    21300032: Spearman Animations_16
+    21300034: Spearman Animations_17
+    21300036: Spearman Animations_18
+    21300038: Spearman Animations_19
+    21300040: Spearman Animations_20
+    21300042: Spearman Animations_21
+    21300044: Spearman Animations_22
+    21300046: Spearman Animations_23
+    21300048: Spearman Animations_24
+    21300050: Spearman Animations_25
+    21300052: Spearman Animations_26
+    21300054: Spearman Animations_27
+    21300056: Spearman Animations_28
+    21300058: Spearman Animations_29
+    21300060: Spearman Animations_30
+    21300062: Spearman Animations_31
+    21300064: Spearman Animations_32
+    21300066: Spearman Animations_33
+    21300068: Spearman Animations_34
+    21300070: Spearman Animations_35
+    21300072: Spearman Animations_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Spearman_1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 781
+        width: 101
+        height: 59
+      alignment: 9
+      pivot: {x: .173267931, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_1
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 783
+        width: 100
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_2
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 781
+        width: 103
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_3
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 778
+        width: 99
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 776
+        width: 99
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_5
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 773
+        width: 93
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_6
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 769
+        width: 76
+        height: 83
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_7
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 771
+        width: 54
+        height: 95
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_8
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 773
+        width: 35
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 695
+        width: 100
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_10
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 689
+        width: 99
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_11
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 698
+        width: 104
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_12
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 698
+        width: 106
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_13
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 705
+        width: 110
+        height: 58
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_14
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 705
+        width: 114
+        height: 61
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_15
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 692
+        width: 110
+        height: 64
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_16
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 701
+        width: 105
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_17
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 697
+        width: 101
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_18
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 598
+        width: 106
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_19
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 597
+        width: 101
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_20
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 518
+        width: 78
+        height: 15
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_21
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 517
+        width: 71
+        height: 33
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_22
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 518
+        width: 54
+        height: 44
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_23
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 518
+        width: 45
+        height: 50
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_24
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 516
+        width: 45
+        height: 55
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_25
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 519
+        width: 117
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_26
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 397
+        width: 35
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_27
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 399
+        width: 35
+        height: 98
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_28
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 300
+        width: 101
+        height: 60
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_29
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 301
+        width: 101
+        height: 59
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_30
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 210
+        width: 24
+        height: 41
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_31
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 206
+        width: 29
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_32
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 202
+        width: 43
+        height: 49
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_33
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 208
+        width: 49
+        height: 42
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_34
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 210
+        width: 49
+        height: 34
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_35
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 217
+        width: 43
+        height: 22
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Spearman Animations_36
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 43
+        width: 43
+        height: 22
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

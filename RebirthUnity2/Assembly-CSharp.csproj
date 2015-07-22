@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\GameData\BaseSpriteStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\Projectiles\ProjectileStats.cs" />
+     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\BaseMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\GraysonMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\AssaultRifle.cs" />

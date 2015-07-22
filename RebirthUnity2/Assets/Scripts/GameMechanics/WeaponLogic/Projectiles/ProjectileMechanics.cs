@@ -6,12 +6,13 @@ using System.Collections;
 /// </summary>
 public abstract class ProjectileMechanics: MonoBehaviour {
 	public ProjectileStats projectileStats;
+	public GameObject bulletEffects;
+
 	protected virtual void Start() {
 
 	}
 
 	protected virtual void FixedUpdate() {
-		print(projectileStats.getDirection ());
 		updateMovement ();
 	}
 
@@ -34,5 +35,9 @@ public abstract class ProjectileMechanics: MonoBehaviour {
 		if (checkProjectileCollide (collider)) {
 			destroyProjectile ();
 		}
+	}
+
+	public virtual void addBulletEffects() {
+
 	}
 }

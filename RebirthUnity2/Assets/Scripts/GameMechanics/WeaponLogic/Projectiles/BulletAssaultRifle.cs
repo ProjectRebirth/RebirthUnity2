@@ -16,4 +16,10 @@ public class BulletAssaultRifle : ProjectileMechanics {
 	public override bool checkProjectileCollide(Collider2D collider) {
 		return false;
 	}
+
+	public override void addBulletEffects() {
+		GameObject effects = (GameObject)Instantiate (this.bulletEffects, transform.position, transform.rotation);
+		effects.transform.parent = this.transform;
+
+	}
 }

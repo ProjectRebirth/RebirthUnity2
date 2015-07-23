@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class BaseGunStats : MonoBehaviour {
 	public ProjectileStats projectile;//The bullet or other projectile that will be fired from the weapon
@@ -9,6 +10,7 @@ public class BaseGunStats : MonoBehaviour {
 	public int maxMagazine;
 	public float coolDown;//This is the interval of time between the time one bullet can be fired until the next
 	public float spread;//The spread of the gun. A spread of one  means that the bullet has a chance of shooting at a 45 degree angle.
+	public Transform[] launchPositions;
 
 	private float coolDownTimer;
 
@@ -78,6 +80,10 @@ public class BaseGunStats : MonoBehaviour {
 
 	public bool getIsEmpty() {
 		return currentMagazine <= 0;
+	}
+
+	public float getRandomSpread() {
+		return Random.Range(-spread, spread);
 	}
 
 }

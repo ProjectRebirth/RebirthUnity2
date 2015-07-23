@@ -10,7 +10,7 @@ public class VectorLogic {
 		float x = vec.x;
 		float y = vec.y;
 		float mag = getMagnitude2 (vec);
-		return new Vector2 (y / mag, x / mag);
+		return new Vector2 (x / mag, y / mag);
 	}
 
 	public static float getMagnitude2(Vector2 vec) {

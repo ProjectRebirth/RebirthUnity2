@@ -30,7 +30,12 @@ public class ProjectileStats : MonoBehaviour {
 	}
 
 	public void setDirection(Vector2 vec) {
-		this.direction = vec;
+		this.direction = VectorLogic.normalizeVector2(vec);
+		Vector3 angles = transform.eulerAngles;
+		float x = angles.x;
+		float y = angles.y;
+		float z = Mathf.Atan2 (vec.y , vec.x) * Mathf.Rad2Deg;
+		transform.eulerAngles = new Vector3 (x, y, z);
 	}
 }
 

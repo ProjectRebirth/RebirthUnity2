@@ -32,6 +32,7 @@ public abstract class ProjectileMechanics: MonoBehaviour {
 	public abstract bool checkProjectileCollide (Collider2D collider);
 
 	protected virtual void OnTriggerEnter2D(Collider2D collider) {
+		print (collider.tag);
 		if (checkProjectileCollide (collider)) {
 			destroyProjectile ();
 		}

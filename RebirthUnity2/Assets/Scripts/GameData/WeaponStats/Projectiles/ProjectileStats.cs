@@ -6,6 +6,7 @@ public class ProjectileStats : MonoBehaviour {
 	public float rawDamage;
 	private Vector2 direction;//Direction should always be a unit Vector
 	private Vector3 originalPosition;
+	private BaseGunStats weaponOrigin;// The weapon that the projectile was fired from.
 
 	protected virtual void Start() {
 		//direction = new Vector2 (1, 0);//The default direction of the projectile will be straight to the right
@@ -36,6 +37,14 @@ public class ProjectileStats : MonoBehaviour {
 		float y = angles.y;
 		float z = Mathf.Atan2 (vec.y , vec.x) * Mathf.Rad2Deg;
 		transform.eulerAngles = new Vector3 (x, y, z);
+	}
+
+	public void setWeaponOrigin(BaseGunStats weapon) {
+		this.weaponOrigin = weapon;
+	}
+
+	public BaseGunStats getWeaponOrigin() {
+		return weaponOrigin;
 	}
 }
 

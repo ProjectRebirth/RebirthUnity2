@@ -32,6 +32,7 @@ public class AssaultRifle : GunLogic {
 			else {
 				bulletStats.setDirection(new Vector2(-1, rifleStats.getRandomSpread()));
 			}
+			bulletStats.setWeaponOrigin(rifleStats);
 			rifleStats.resetCoolDownTimer();
 			baseGunStats.decrementCurrentMagazine();
 		}

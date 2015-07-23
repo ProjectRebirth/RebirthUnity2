@@ -14,7 +14,7 @@ public class BulletAssaultRifle : ProjectileMechanics {
 	}
 
 	public override bool checkProjectileCollide(Collider2D collider) {
-		return false;
+		return projectileStats.getWeaponOrigin().tag != collider.tag;
 	}
 
 	public override void addBulletEffects() {

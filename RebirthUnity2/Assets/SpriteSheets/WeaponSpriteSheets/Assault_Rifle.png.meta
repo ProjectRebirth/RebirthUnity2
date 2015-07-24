@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1235c467dd04b0a4fb13195dac830438
-timeCreated: 1437251558
+timeCreated: 1437764570
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -28,6 +28,14 @@ TextureImporter:
     21300042: Assault_Rifle_21
     21300044: Assault_Rifle_22
     21300046: Assault_Rifle_23
+    21300048: AssaultRfille1NoBullet
+    21300050: AssaultRifle2NoBullet
+    21300052: AssaultRifle3NoBullet
+    21300054: AssaultRifle4NoBullet
+    21300056: AssaultSide4
+    21300058: AssaultSide3
+    21300060: AssaultSide2
+    21300062: AssaultSide1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -312,6 +320,86 @@ TextureImporter:
         height: 13
       alignment: 9
       pivot: {x: .232142851, y: .307692021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultRfille1NoBullet
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 253
+        width: 16
+        height: 33
+      alignment: 9
+      pivot: {x: .743750572, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultRifle2NoBullet
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 313
+        width: 16
+        height: 33
+      alignment: 9
+      pivot: {x: .743750572, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultRifle3NoBullet
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 377
+        width: 16
+        height: 33
+      alignment: 9
+      pivot: {x: .743750572, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultRifle4NoBullet
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 443
+        width: 16
+        height: 33
+      alignment: 9
+      pivot: {x: .743750572, y: .0909090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultSide4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 207
+        width: 35
+        height: 15
+      alignment: 9
+      pivot: {x: .109999999, y: .270000011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultSide3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 157
+        width: 35
+        height: 15
+      alignment: 9
+      pivot: {x: .109999999, y: .270000011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultSide2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 104
+        width: 35
+        height: 15
+      alignment: 9
+      pivot: {x: .109999999, y: .270000011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AssaultSide1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 57
+        width: 35
+        height: 15
+      alignment: 9
+      pivot: {x: .109999999, y: .270000011}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

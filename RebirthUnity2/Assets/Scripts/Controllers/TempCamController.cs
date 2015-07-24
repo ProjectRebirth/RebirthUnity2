@@ -25,4 +25,9 @@ public class TempCamController : MonoBehaviour {
 		this.transform.localPosition = newPosition;
 		
 	}
+
+	void Start() {
+		Camera mainCamera = GetComponent<Camera> ();
+		mainCamera.transparencySortMode = TransparencySortMode.Orthographic;
+	}
 }

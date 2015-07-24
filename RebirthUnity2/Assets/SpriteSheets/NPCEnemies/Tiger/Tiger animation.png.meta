@@ -1,9 +1,23 @@
 fileFormatVersion: 2
 guid: dd9d2ed39c5943841895ebd5d177e4f5
-timeCreated: 1437693231
+timeCreated: 1437754003
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Tiger animation_0
+    21300002: Tiger animation_1
+    21300004: Tiger animation_2
+    21300006: Tiger animation_3
+    21300008: Tiger animation_4
+    21300010: Tiger animation_5
+    21300012: Tiger animation_6
+    21300014: Tiger animation_7
+    21300016: Tiger animation_8
+    21300018: Tiger animation_9
+    21300020: Tiger animation_10
+    21300022: Tiger animation_11
+    21300024: Tiger animation_12
+    21300026: Tiger animation_13
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -48,7 +62,147 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Tiger animation_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 173
+        width: 82
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 85
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_2
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 174
+        width: 84
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_3
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 175
+        width: 82
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_4
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 175
+        width: 80
+        height: 43
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_5
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 175
+        width: 81
+        height: 37
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 175
+        width: 78
+        height: 34
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_7
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 175
+        width: 78
+        height: 30
+      alignment: 9
+      pivot: {x: .602893531, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_8
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 87
+        width: 84
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_9
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 87
+        width: 84
+        height: 46
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_10
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 36
+        width: 77
+        height: 17
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_11
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 36
+        width: 77
+        height: 22
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_12
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 38
+        width: 77
+        height: 25
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tiger animation_13
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 35
+        width: 78
+        height: 30
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

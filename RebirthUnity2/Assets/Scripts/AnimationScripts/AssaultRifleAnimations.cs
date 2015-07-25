@@ -8,7 +8,8 @@ public class AssaultRifleAnimations : MonoBehaviour {
 	void Update() {
 		//print (assaultRifle.getIsLookingUp ());
 		rifleAnimator.SetBool("isLookingUp", assaultRifle.getIsLookingUp ());
-		print (assaultRifle.getIsFiring ());
 		rifleAnimator.SetBool ("isFiring", assaultRifle.getIsFiring ());
+		rifleAnimator.SetFloat ("ammoRatio", assaultRifle.getAmmoRatio ());
+
 	}
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1235c467dd04b0a4fb13195dac830438
-timeCreated: 1437764570
+timeCreated: 1437774779
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -209,7 +209,7 @@ TextureImporter:
         width: 47
         height: 13
       alignment: 9
-      pivot: {x: .0659576207, y: .230769232}
+      pivot: {x: .0659999996, y: .230000004}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_13
       rect:
@@ -219,7 +219,7 @@ TextureImporter:
         width: 44
         height: 15
       alignment: 9
-      pivot: {x: .1386365, y: .266666681}
+      pivot: {x: .138999999, y: .26699999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_14
       rect:
@@ -229,7 +229,7 @@ TextureImporter:
         width: 56
         height: 13
       alignment: 9
-      pivot: {x: .23392868, y: .307692319}
+      pivot: {x: .233999997, y: .307000011}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_15
       rect:
@@ -239,7 +239,7 @@ TextureImporter:
         width: 47
         height: 13
       alignment: 9
-      pivot: {x: .065957576, y: .238460839}
+      pivot: {x: .0659999996, y: .230000004}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_16
       rect:
@@ -249,7 +249,7 @@ TextureImporter:
         width: 44
         height: 15
       alignment: 9
-      pivot: {x: .1386365, y: .266666681}
+      pivot: {x: .138999999, y: .26699999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_17
       rect:
@@ -259,7 +259,7 @@ TextureImporter:
         width: 56
         height: 13
       alignment: 9
-      pivot: {x: .232142851, y: .299999535}
+      pivot: {x: .233999997, y: .307000011}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_18
       rect:
@@ -269,7 +269,7 @@ TextureImporter:
         width: 47
         height: 13
       alignment: 9
-      pivot: {x: .0638298243, y: .223076448}
+      pivot: {x: .0659999996, y: .230000004}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_19
       rect:
@@ -279,7 +279,7 @@ TextureImporter:
         width: 44
         height: 15
       alignment: 9
-      pivot: {x: .1386365, y: .266666681}
+      pivot: {x: .138999999, y: .26699999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_20
       rect:
@@ -289,7 +289,7 @@ TextureImporter:
         width: 56
         height: 13
       alignment: 9
-      pivot: {x: .23392868, y: .307692319}
+      pivot: {x: .233999997, y: .307000011}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_21
       rect:
@@ -299,7 +299,7 @@ TextureImporter:
         width: 47
         height: 13
       alignment: 9
-      pivot: {x: .0617021993, y: .223076746}
+      pivot: {x: .0659999996, y: .230000004}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_22
       rect:
@@ -309,7 +309,7 @@ TextureImporter:
         width: 44
         height: 15
       alignment: 9
-      pivot: {x: .13636364, y: .266666412}
+      pivot: {x: .138999999, y: .26699999}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Assault_Rifle_23
       rect:
@@ -319,7 +319,7 @@ TextureImporter:
         width: 56
         height: 13
       alignment: 9
-      pivot: {x: .232142851, y: .307692021}
+      pivot: {x: .233999997, y: .307000011}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: AssaultRfille1NoBullet
       rect:

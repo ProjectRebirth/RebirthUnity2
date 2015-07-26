@@ -4,17 +4,38 @@ using System.Collections;
 public class ProjectileStats : MonoBehaviour {
 	public float speed;
 	public float rawDamage;
+	public float destroyTime;
+	public float bulletRange;//The distance that the bullet can travel before automatically being destroyed.
+	private float destroyTimer;
+	private bool hasCollided;
 	private Vector2 direction;//Direction should always be a unit Vector
 	private Vector3 originalPosition;
 	private BaseGunStats weaponOrigin;// The weapon that the projectile was fired from.
 
 	protected virtual void Start() {
 		//direction = new Vector2 (1, 0);//The default direction of the projectile will be straight to the right
+		destroyTimer = destroyTime;
 		originalPosition = transform.position;
 	}
 
 	protected virtual void Update() {
 		outOfRangeDestroy ();
+		calculateDestroyTimer ();
+	}
+
+	private void calculateDestroyTimer() {
+		if (hasCollided) {
+			destroyTimer -= Time.deltaTime;
+			if (destroyTimer < 0) {
+				destroyTimer = 0;
+			}
+		} else {
+			destroyTimer = destroyTime;
+		}
+	}
+
+	public bool getDestroyBullet() {
+		return destroyTimer <= 0;
 	}
 
 
@@ -45,6 +66,14 @@ public class ProjectileStats : MonoBehaviour {
 
 	public BaseGunStats getWeaponOrigin() {
 		return weaponOrigin;
+	}
+
+	public bool getHasCollided() {
+		return hasCollided;
+	}
+
+	public void setHasCollided(bool hasCollided) {
+		this.hasCollided = hasCollided;
 	}
 }
 

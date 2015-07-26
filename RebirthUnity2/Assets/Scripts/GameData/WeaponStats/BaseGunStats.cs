@@ -8,6 +8,8 @@ public class BaseGunStats : MonoBehaviour {
 	private float ammoRatio;//This is the ratio of ammo currently contained compared to the max ammo that can be held
 	public int currentMagazine;
 	public int maxMagazine;
+	public float reloadTime;
+	private float reloadTimer;
 	public float coolDown;//This is the interval of time between the time one bullet can be fired until the next
 	public float spread;//The spread of the gun. A spread of one  means that the bullet has a chance of shooting at a 45 degree angle.
 	public Transform[] launchPositions;
@@ -17,6 +19,14 @@ public class BaseGunStats : MonoBehaviour {
 
 	protected virtual void Update() {
 		updateCoolDownTimer ();
+		updateReloadTimer ();
+	}
+
+	public void updateReloadTimer() {
+		reloadTimer -= Time.deltaTime;
+		if (reloadTimer < 0) {
+			reloadTimer = 0f;
+		}
 	}
 
 	/// <summary>
@@ -84,6 +94,14 @@ public class BaseGunStats : MonoBehaviour {
 
 	public float getRandomSpread() {
 		return Random.Range(-spread, spread);
+	}
+
+	public void setReloadTimer() {
+		reloadTimer = reloadTime;
+	}
+
+	public bool getIsReloading() {
+		return reloadTimer > 0f;
 	}
 
 }

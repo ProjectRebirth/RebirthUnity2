@@ -3,11 +3,21 @@ using System.Collections;
 
 public class AssaultRifle : GunLogic {
 	private BaseGunStats rifleStats;
+	private bool reloadPressed;
 	const int LAUNCH_UP = 0;
 	const int LAUNCH_SIDE = 1;
 
 	protected override void Start() {
 		rifleStats = baseGunStats;
+	}
+
+	protected override void Update() {
+		base.Update ();
+		if (reloadPressed && !rifleStats.getIsReloading ()) {
+			reloadPressed = false;
+			rifleStats.setCurrentMagazine(rifleStats.maxMagazine);
+		}
+			                                                  
 	}
 
 	public override void fireWeapon() {
@@ -39,8 +49,20 @@ public class AssaultRifle : GunLogic {
 	}
 
 	public override void reload() {
-		rifleStats.setCurrentMagazine (rifleStats.maxMagazine);
+		if (checkCanReload ()) {
+			reloadPressed = true;
+			rifleStats.setCurrentMagazine (0);
+			rifleStats.setReloadTimer();
+		}
 	}
 
-
+	private bool checkCanReload() {
+		if (rifleStats.getIsReloading ()) {
+			return false;
+		}
+		if (rifleStats.getCurrentMagazine () >= rifleStats.maxMagazine) {
+			return false;
+		}
+		return true;
+	}
 }

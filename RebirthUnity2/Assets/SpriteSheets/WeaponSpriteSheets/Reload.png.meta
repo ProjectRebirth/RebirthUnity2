@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: a94e2e0a2342e8b4590c51b14f49134f
+timeCreated: 1437951908
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Reload_0
+    21300002: Reload_1
+    21300004: Reload_2
+    21300006: Reload_3
+    21300008: Reload_4
+    21300010: Reload_5
+    21300012: Reload_6
+    21300014: Reload_8
+    21300016: Reload_10
+    21300018: Reload_12
+    21300020: Reload_Cock
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Reload_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 36
+        height: 38
+      alignment: 9
+      pivot: {x: .138889, y: .102631547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 6
+        width: 35
+        height: 38
+      alignment: 9
+      pivot: {x: .28285718, y: .105263136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 24
+        height: 26
+      alignment: 9
+      pivot: {x: .166666985, y: .149999946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 8
+        width: 18
+        height: 28
+      alignment: 9
+      pivot: {x: .272222728, y: .0714285374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 6
+        width: 18
+        height: 33
+      alignment: 9
+      pivot: {x: .494444966, y: .12424241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_5
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 6
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: .473684222, y: .11818178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_6
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 6
+        width: 19
+        height: 33
+      alignment: 9
+      pivot: {x: .468420744, y: .11818178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_8
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 6
+        width: 22
+        height: 33
+      alignment: 9
+      pivot: {x: .404545188, y: .12424241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 5
+        width: 21
+        height: 34
+      alignment: 9
+      pivot: {x: .428571433, y: .1470588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 6
+        width: 12
+        height: 33
+      alignment: 9
+      pivot: {x: .741668701, y: .12424241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Reload_Cock
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 7
+        width: 35
+        height: 13
+      alignment: 9
+      pivot: {x: .111429267, y: .299999893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

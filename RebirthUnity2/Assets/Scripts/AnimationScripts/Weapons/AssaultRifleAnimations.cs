@@ -10,6 +10,7 @@ public class AssaultRifleAnimations : MonoBehaviour {
 		rifleAnimator.SetBool("isLookingUp", assaultRifle.getIsLookingUp ());
 		rifleAnimator.SetBool ("isFiring", assaultRifle.getIsFiring ());
 		rifleAnimator.SetFloat ("ammoRatio", assaultRifle.getAmmoRatio ());
+		rifleAnimator.SetBool ("isReloading", assaultRifle.getIsReloading ());
 
 	}
 }

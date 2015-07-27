@@ -7,7 +7,6 @@ public class BulletAssaultAnimation : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		print (bulletStats.getHasCollided ());
 		bulletAnimator.SetBool ("hasCollided", bulletStats.getHasCollided ());
 	}
 }

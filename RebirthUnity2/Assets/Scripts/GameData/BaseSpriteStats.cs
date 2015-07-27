@@ -29,7 +29,7 @@ public class BaseSpriteStats : MonoBehaviour{
 	}
 
 	public bool getIsWalking() {
-		return isWalking;
+		return Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x) > 0;
 	}
 
 	public virtual void setIsWalking(bool isWalking) {

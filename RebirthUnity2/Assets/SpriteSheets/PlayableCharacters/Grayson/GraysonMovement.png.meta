@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 76d53d79eb22791468861386c6377f7c
-timeCreated: 1437975639
+timeCreated: 1438105759
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -280,7 +280,7 @@ TextureImporter:
         width: 19
         height: 8
       alignment: 9
-      pivot: {x: .610000014, y: 0}
+      pivot: {x: .610000014, y: -.100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Leg_Walk_02
       rect:
@@ -290,7 +290,7 @@ TextureImporter:
         width: 19
         height: 8
       alignment: 9
-      pivot: {x: .610000014, y: 0}
+      pivot: {x: .610000014, y: -.100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Leg_Walk_03
       rect:
@@ -320,7 +320,7 @@ TextureImporter:
         width: 19
         height: 8
       alignment: 9
-      pivot: {x: .610000014, y: 0}
+      pivot: {x: .610000014, y: -.100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Leg_Walk_06
       rect:
@@ -330,7 +330,7 @@ TextureImporter:
         width: 19
         height: 8
       alignment: 9
-      pivot: {x: .610000014, y: 0}
+      pivot: {x: .610000014, y: -.129999995}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Leg_Walk_07
       rect:
@@ -340,7 +340,7 @@ TextureImporter:
         width: 19
         height: 8
       alignment: 9
-      pivot: {x: .610000014, y: 0}
+      pivot: {x: .610000014, y: -.100000001}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Leg_Walk_08
       rect:
@@ -540,7 +540,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 9
-      pivot: {x: .610000014, y: -.319999993}
+      pivot: {x: .610000014, y: -.349999994}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk_Torso_02
       rect:
@@ -550,7 +550,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 9
-      pivot: {x: .610000014, y: -.319999993}
+      pivot: {x: .610000014, y: -.349999994}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk_Torso_03
       rect:
@@ -580,7 +580,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 9
-      pivot: {x: .610000014, y: -.319999993}
+      pivot: {x: .610000014, y: -.349999994}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk_Torso_06
       rect:
@@ -590,7 +590,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 9
-      pivot: {x: .610000014, y: -.319999993}
+      pivot: {x: .610000014, y: -.360000014}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk_Torso_07
       rect:
@@ -600,7 +600,7 @@ TextureImporter:
         width: 19
         height: 25
       alignment: 9
-      pivot: {x: .610000014, y: -.319999993}
+      pivot: {x: .610000014, y: -.349999994}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk_Torso_08
       rect:

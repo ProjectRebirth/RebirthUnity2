@@ -15,7 +15,6 @@ public class BaseSpriteStats : MonoBehaviour{
 	public float jumpSpeed;//The speed that will be immediately set to the y velocity
 	public bool isRight;
 	private bool inAir;
-	private bool isWalking;
 	private float lastHorInput;
 	private float lastVertInput;
 		
@@ -29,11 +28,7 @@ public class BaseSpriteStats : MonoBehaviour{
 	}
 
 	public bool getIsWalking() {
-		return Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x) > 0;
-	}
-
-	public virtual void setIsWalking(bool isWalking) {
-		this.isWalking = isWalking;
+		return Mathf.Abs(GetComponent<Rigidbody2D> ().velocity.x) > 0.01f;
 	}
 
 	public float getSpeed() {

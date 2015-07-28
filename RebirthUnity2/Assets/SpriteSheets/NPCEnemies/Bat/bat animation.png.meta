@@ -1,24 +1,24 @@
 fileFormatVersion: 2
 guid: 37e4e5d31656b9d4182b26d35124685e
-timeCreated: 1437762589
+timeCreated: 1438028197
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: bat animation_0
-    21300002: bat animation_1
-    21300004: bat animation_2
-    21300006: bat animation_3
-    21300008: bat animation_4
-    21300010: bat animation_5
-    21300012: bat animation_6
-    21300014: bat animation_7
-    21300016: bat main
-    21300018: bat animation_9
-    21300020: bat animation_10
-    21300022: bat animation_11
-    21300024: bat animation_12
-    21300026: bat animation_13
-    21300028: bat animation_14
+    21300000: Bat_Dead_03
+    21300002: Bat_Dead_02
+    21300004: Bat_Dead_01
+    21300006: Bat_Dead_00
+    21300008: Bat_Fly_04
+    21300010: Bat_Fly_03
+    21300012: Bat_Fly_02
+    21300014: Bat_Fly_01
+    21300016: Bat_Fly_00
+    21300018: Bat_Attack_03
+    21300020: Projectile_01
+    21300022: Bat_Attack_02
+    21300024: Projectile_00
+    21300026: Bat_Attack_01
+    21300028: Bat_Attack_00
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -64,7 +64,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: bat animation_0
+    - name: Bat_Dead_03
       rect:
         serializedVersion: 2
         x: 103
@@ -72,9 +72,9 @@ TextureImporter:
         width: 30
         height: 11
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_1
+    - name: Bat_Dead_02
       rect:
         serializedVersion: 2
         x: 149
@@ -82,9 +82,9 @@ TextureImporter:
         width: 29
         height: 21
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_2
+    - name: Bat_Dead_01
       rect:
         serializedVersion: 2
         x: 193
@@ -92,9 +92,9 @@ TextureImporter:
         width: 28
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_3
+    - name: Bat_Dead_00
       rect:
         serializedVersion: 2
         x: 236
@@ -104,7 +104,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_4
+    - name: Bat_Fly_04
       rect:
         serializedVersion: 2
         x: 17
@@ -112,9 +112,9 @@ TextureImporter:
         width: 39
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_5
+    - name: Bat_Fly_03
       rect:
         serializedVersion: 2
         x: 74
@@ -122,9 +122,9 @@ TextureImporter:
         width: 41
         height: 24
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_6
+    - name: Bat_Fly_02
       rect:
         serializedVersion: 2
         x: 130
@@ -132,9 +132,9 @@ TextureImporter:
         width: 43
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_7
+    - name: Bat_Fly_01
       rect:
         serializedVersion: 2
         x: 185
@@ -144,7 +144,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat main
+    - name: Bat_Fly_00
       rect:
         serializedVersion: 2
         x: 237
@@ -154,7 +154,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_9
+    - name: Bat_Attack_03
       rect:
         serializedVersion: 2
         x: 32
@@ -162,9 +162,9 @@ TextureImporter:
         width: 39
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_10
+    - name: Projectile_01
       rect:
         serializedVersion: 2
         x: 74
@@ -172,9 +172,9 @@ TextureImporter:
         width: 15
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_11
+    - name: Bat_Attack_02
       rect:
         serializedVersion: 2
         x: 113
@@ -182,9 +182,9 @@ TextureImporter:
         width: 39
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_12
+    - name: Projectile_00
       rect:
         serializedVersion: 2
         x: 155
@@ -192,9 +192,9 @@ TextureImporter:
         width: 15
         height: 9
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_13
+    - name: Bat_Attack_01
       rect:
         serializedVersion: 2
         x: 179
@@ -202,9 +202,9 @@ TextureImporter:
         width: 41
         height: 28
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: bat animation_14
+    - name: Bat_Attack_00
       rect:
         serializedVersion: 2
         x: 238
@@ -212,7 +212,7 @@ TextureImporter:
         width: 39
         height: 27
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

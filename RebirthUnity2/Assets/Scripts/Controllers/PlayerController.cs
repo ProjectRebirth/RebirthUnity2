@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour {
 		float verticalMovement = Input.GetAxisRaw ("Vertical");
 		mechanics.moveVertical (verticalMovement);
 		mechanics.moveHorizontal (horizontalMovement);
-		bool jumpKeyDown = Input.GetButtonDown ("Jump");
+		bool jumpKeyDown = Input.GetButton ("Jump");
 		
 		
 		mechanics.jump (jumpKeyDown);

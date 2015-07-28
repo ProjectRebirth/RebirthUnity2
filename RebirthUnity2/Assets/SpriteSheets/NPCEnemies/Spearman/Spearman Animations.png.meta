@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f78ba3f5c2d8de341b4cbd835a6db1c0
-timeCreated: 1437445057
+timeCreated: 1438127021
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -94,7 +94,7 @@ TextureImporter:
         width: 101
         height: 59
       alignment: 9
-      pivot: {x: .173267931, y: 0}
+      pivot: {x: .185442328, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_1
       rect:
@@ -103,8 +103,8 @@ TextureImporter:
         y: 783
         width: 100
         height: 59
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .198743284, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_2
       rect:
@@ -113,8 +113,8 @@ TextureImporter:
         y: 781
         width: 103
         height: 61
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .211099267, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_3
       rect:
@@ -123,8 +123,8 @@ TextureImporter:
         y: 778
         width: 99
         height: 64
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .18949011, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_4
       rect:
@@ -133,8 +133,8 @@ TextureImporter:
         y: 776
         width: 99
         height: 64
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .179554328, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_5
       rect:
@@ -143,8 +143,8 @@ TextureImporter:
         y: 773
         width: 93
         height: 64
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .18929036, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_6
       rect:
@@ -153,8 +153,8 @@ TextureImporter:
         y: 769
         width: 76
         height: 83
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .228189573, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_7
       rect:
@@ -163,8 +163,8 @@ TextureImporter:
         y: 771
         width: 54
         height: 95
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .329221368, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_8
       rect:
@@ -174,7 +174,7 @@ TextureImporter:
         width: 35
         height: 98
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_9
       rect:
@@ -183,8 +183,8 @@ TextureImporter:
         y: 695
         width: 100
         height: 59
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .187220454, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_10
       rect:
@@ -193,8 +193,8 @@ TextureImporter:
         y: 689
         width: 99
         height: 64
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .185551196, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_11
       rect:
@@ -203,8 +203,8 @@ TextureImporter:
         y: 698
         width: 104
         height: 61
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .209180981, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_12
       rect:
@@ -213,8 +213,8 @@ TextureImporter:
         y: 698
         width: 106
         height: 60
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .223019004, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_13
       rect:
@@ -223,8 +223,8 @@ TextureImporter:
         y: 705
         width: 110
         height: 58
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .255892664, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_14
       rect:
@@ -233,8 +233,8 @@ TextureImporter:
         y: 705
         width: 114
         height: 61
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .28387022, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_15
       rect:
@@ -243,8 +243,8 @@ TextureImporter:
         y: 692
         width: 110
         height: 64
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .261257112, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_16
       rect:
@@ -253,8 +253,8 @@ TextureImporter:
         y: 701
         width: 105
         height: 60
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .216165602, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_17
       rect:
@@ -263,8 +263,8 @@ TextureImporter:
         y: 697
         width: 101
         height: 59
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .187396064, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_18
       rect:
@@ -273,8 +273,8 @@ TextureImporter:
         y: 598
         width: 106
         height: 59
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .171680376, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_19
       rect:
@@ -283,8 +283,8 @@ TextureImporter:
         y: 597
         width: 101
         height: 59
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .18305108, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_20
       rect:
@@ -293,8 +293,8 @@ TextureImporter:
         y: 518
         width: 78
         height: 15
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .461997002, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_21
       rect:
@@ -303,8 +303,8 @@ TextureImporter:
         y: 517
         width: 71
         height: 33
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .507042229, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_22
       rect:
@@ -313,8 +313,8 @@ TextureImporter:
         y: 518
         width: 54
         height: 44
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .666666687, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_23
       rect:
@@ -323,8 +323,8 @@ TextureImporter:
         y: 518
         width: 45
         height: 50
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .800000012, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_24
       rect:
@@ -333,8 +333,8 @@ TextureImporter:
         y: 516
         width: 45
         height: 55
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .800000012, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_25
       rect:
@@ -343,8 +343,8 @@ TextureImporter:
         y: 519
         width: 117
         height: 59
-      alignment: 7
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: .307193607, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_26
       rect:
@@ -354,7 +354,7 @@ TextureImporter:
         width: 35
         height: 98
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_27
       rect:
@@ -364,7 +364,7 @@ TextureImporter:
         width: 35
         height: 98
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_28
       rect:
@@ -374,7 +374,7 @@ TextureImporter:
         width: 101
         height: 60
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_29
       rect:
@@ -384,7 +384,7 @@ TextureImporter:
         width: 101
         height: 59
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_30
       rect:
@@ -394,7 +394,7 @@ TextureImporter:
         width: 24
         height: 41
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_31
       rect:
@@ -404,7 +404,7 @@ TextureImporter:
         width: 29
         height: 46
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_32
       rect:
@@ -414,7 +414,7 @@ TextureImporter:
         width: 43
         height: 49
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_33
       rect:
@@ -424,7 +424,7 @@ TextureImporter:
         width: 49
         height: 42
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_34
       rect:
@@ -434,7 +434,7 @@ TextureImporter:
         width: 49
         height: 34
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_35
       rect:
@@ -444,7 +444,7 @@ TextureImporter:
         width: 43
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Spearman Animations_36
       rect:
@@ -454,7 +454,7 @@ TextureImporter:
         width: 43
         height: 22
       alignment: 7
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

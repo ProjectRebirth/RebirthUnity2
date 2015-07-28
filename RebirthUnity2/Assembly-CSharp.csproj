@@ -46,7 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AnimationScripts\AssaultRifleAnimations.cs" />
+     <Compile Include="Assets\Scripts\AnimationScripts\Weapons\AssaultRifleAnimations.cs" />
+     <Compile Include="Assets\Scripts\AnimationScripts\Weapons\Projectile\BulletAssaultAnimation.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\TempCamController.cs" />
      <Compile Include="Assets\Scripts\GameData\BaseSpriteStats.cs" />

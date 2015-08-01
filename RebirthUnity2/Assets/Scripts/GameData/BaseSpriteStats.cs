@@ -68,7 +68,20 @@ public class BaseSpriteStats : MonoBehaviour{
 		return lastVertInput > 0;
 	}
 
+	public bool getIsDead() {
+		return curHealth <= 0;
+	}
 
+	public void setHealth(float health) {
+		if (health < 0) {
+			curHealth = 0;
+		} else if (maxHealth < health) {
+			curHealth = maxHealth;
+		}
+		else {
+			curHealth = health;
+		}
+	}
 
 
 }

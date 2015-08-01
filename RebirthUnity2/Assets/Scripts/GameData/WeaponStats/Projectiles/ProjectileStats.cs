@@ -6,11 +6,13 @@ public class ProjectileStats : MonoBehaviour {
 	public float rawDamage;
 	public float destroyTime;
 	public float bulletRange;//The distance that the bullet can travel before automatically being destroyed.
+	public string enemyTag;
 	private float destroyTimer;
 	private bool hasCollided;
 	private Vector2 direction;//Direction should always be a unit Vector
 	private Vector3 originalPosition;
 	private BaseGunStats weaponOrigin;// The weapon that the projectile was fired from.
+
 
 	protected virtual void Start() {
 		//direction = new Vector2 (1, 0);//The default direction of the projectile will be straight to the right

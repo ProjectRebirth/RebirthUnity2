@@ -108,6 +108,13 @@ public class BaseMechanics : MonoBehaviour {
 
 	}
 
+	protected void setTimer(bool timerActive) {
+		this.timerActive = timerActive;
+	}
+
+	protected bool getTimerActive() {
+		return timerActive;
+	}
 
 
 

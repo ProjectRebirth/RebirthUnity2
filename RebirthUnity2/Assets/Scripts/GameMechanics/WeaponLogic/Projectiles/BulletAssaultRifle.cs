@@ -37,7 +37,7 @@ public class BulletAssaultRifle : ProjectileMechanics {
 	}
 
 	protected override void OnTriggerEnter2D(Collider2D collider) {
-		if (checkProjectileCollide (collider)) {
+		if (checkProjectileCollide (collider) && !projectileStats.getHasCollided()) {
 			if (collider.tag == projectileStats.enemyTag) {
 				BaseMechanics enemyMechanics = collider.GetComponent<BaseMechanics>();
 				enemyMechanics.takeDamage(projectileStats.rawDamage, this.GetComponent<Collider2D>());

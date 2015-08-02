@@ -2,18 +2,26 @@
 using System.Collections;
 
 public class TigerStats : BaseSpriteStats {
-	private bool isAttacking;
 	public float attackTime;
 	private float attackTimer;
 
 
+	protected virtual void Update() {
+		updateAttackTimer ();
+	}
+
 	public bool getIsAttacking() {
-		return isAttacking;
+		return attackTimer > 0;
 	}
 
-	public void setIsAttacking(bool isAttacking) {
-		this.isAttacking = isAttacking;
+	private void updateAttackTimer() {
+		attackTimer -= Time.deltaTime;
+		if (attackTimer < 0) {
+			attackTimer = 0;
+		}
 	}
 
-
+	public void resetAttackTimer() {
+		attackTimer = attackTime;
+	}
 }

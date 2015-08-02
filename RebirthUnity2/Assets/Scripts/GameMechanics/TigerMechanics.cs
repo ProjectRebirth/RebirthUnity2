@@ -2,19 +2,19 @@
 using System.Collections;
 
 public class TigerMechanics : BaseMechanics, IMelee {
-	public TigerStats tigerStats;
+	private TigerStats tigerStats;
 
 	protected override void Start() {
-
+		tigerStats = (TigerStats)baseStats;
 	}
 
 	public bool checkCanMeleeAttack() {
-		return false;
+		return !tigerStats.getIsAttacking ();
 	}
 
 	public void meleeAttack(bool meleeButtonDown) {
-		if (checkCanMeleeAttack ()) {
-
+		if (checkCanMeleeAttack () && meleeButtonDown) {
+			tigerStats.resetAttackTimer();
 		}
 	}
 

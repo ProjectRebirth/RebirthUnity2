@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TigerStats : BaseSpriteStats {
+public class TigerStats : BaseSpriteStats, IMeleeStats {
 	public float attackTime;
 	private float attackTimer;
 

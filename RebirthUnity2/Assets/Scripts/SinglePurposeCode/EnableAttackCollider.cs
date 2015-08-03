@@ -13,8 +13,8 @@ public class EnableAttackCollider : MonoBehaviour {
 	}
 
 	void Update() {
-		//updateDelayTimer ();
-		//checkIsEnabled ();
+		updateDelayTimer ();
+		checkIsEnabled ();
 
 	}
 

@@ -2,11 +2,13 @@
 using System.Collections;
 
 public class TigerAnimations : MonoBehaviour {
-	public BaseSpriteStats tigerStats;
+	public TigerStats tigerStats;
 	public Animator tigerAnimator;
 
 	void Update() {
 		tigerAnimator.SetBool ("isDead", tigerStats.getIsDead ());
+		tigerAnimator.SetBool ("isAttacking", tigerStats.getIsAttacking ());
+		tigerAnimator.SetBool ("isWalking", tigerStats.getIsWalking ());
 	}
 
 }

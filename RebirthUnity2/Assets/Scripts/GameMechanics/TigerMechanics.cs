@@ -9,7 +9,7 @@ public class TigerMechanics : BaseMechanics, IMelee {
 	}
 
 	public bool checkCanMeleeAttack() {
-		return !tigerStats.getIsAttacking ();
+		return !tigerStats.getIsAttacking () && tigerStats.getCoolDownAttack();
 	}
 
 	public void meleeAttack(bool meleeButtonDown) {

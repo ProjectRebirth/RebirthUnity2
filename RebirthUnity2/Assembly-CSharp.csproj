@@ -47,16 +47,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimationScripts\Grayson\GraysonAnimation.cs" />
+     <Compile Include="Assets\Scripts\AnimationScripts\NPCEnemies\BatAnimation.cs" />
+     <Compile Include="Assets\Scripts\AnimationScripts\NPCEnemies\SkeletonAnimations.cs" />
+     <Compile Include="Assets\Scripts\AnimationScripts\NPCEnemies\TigerAnimations.cs" />
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\AssaultRifleAnimations.cs" />
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\Projectile\BulletAssaultAnimation.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\TempCamController.cs" />
      <Compile Include="Assets\Scripts\GameData\BaseSpriteStats.cs" />
+     <Compile Include="Assets\Scripts\GameData\BatStats.cs" />
+     <Compile Include="Assets\Scripts\GameData\TigerStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\Projectiles\ProjectileStats.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\BaseMechanics.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\BatMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\GraysonMechanics.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\TigerMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\AssaultRifle.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\GunLogic.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\BulletAssaultRifle.cs" />

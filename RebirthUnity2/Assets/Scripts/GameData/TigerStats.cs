@@ -16,7 +16,7 @@ public class TigerStats : BaseSpriteStats, IMeleeStats {
 	private void updateCoolDown() {
 
 		if (getIsAttacking ()) {
-			coolDownTimer = attackTimer;
+			coolDownTimer = attackCoolDown;
 		}
 		coolDownTimer -= Time.deltaTime;
 		if (coolDownTimer < 0) {

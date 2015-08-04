@@ -2,17 +2,21 @@
 using System.Collections;
 
 public class GraysonMechanics : BaseMechanics, IShooter {
-	public AssaultRifle assaultRifle;
-	public BaseGunStats rifleStats;
+	public GraysonStats graysonStats;
+
+	protected override void Start() {
+		base.Start ();
+		graysonStats = (GraysonStats)baseStats;
+	}
 
 	public void fireWeapon(bool fireWeaponDown) {
 		if (checkCanFire () && fireWeaponDown) {
-			assaultRifle.fireWeapon();
+			graysonStats.assaultRifle.fireWeapon();
 		}
 	}
 
 	public bool getIsFiring() {
-		return rifleStats.getIsFiring();
+		return graysonStats.getIsFiring();
 	}
 
 	/// <summary>
@@ -26,12 +30,12 @@ public class GraysonMechanics : BaseMechanics, IShooter {
 
 	public void reloadMain(bool reloadDown) {
 		if (reloadDown && checkCanReload()) {
-			assaultRifle.reload ();
+			graysonStats.assaultRifle.reload ();
 		}
 	}
 
 	private bool checkCanReload() {
-		return !rifleStats.getIsFiring();
+		return !graysonStats.rifleStats.getIsFiring();
 	}
 
 }

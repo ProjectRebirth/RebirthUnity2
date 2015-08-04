@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BatMechanics : BaseMechanics {
+public class BatMechanics : BaseMechanics, IShooter {
 	private BatStats batStats;
 
 	protected override void Start() {
@@ -15,12 +15,28 @@ public class BatMechanics : BaseMechanics {
 	}
 
 	/// <summary>
-	///Updates the flight direction of the 
+	///Updates the flight direction of the bat.
 	/// </summary>
 	protected override void FixedUpdate() {
 		updateFlightDirection ();
 	}
+	/**********************Shooter methods *******************************/
+	public void fireWeapon(bool fireButtonDown) {
 
+	}
+
+	public bool checkCanFire() {
+		return false;
+	}
+
+	public bool getIsFiring() {
+		return false;
+	}
+
+	public void reloadMain(bool reloadButtonDown) {
+
+	}
+	/********************************************************************/
 	private void updateFlightDirection() {
 		Rigidbody2D rigid = GetComponent<Rigidbody2D> ();
 		Vector2 currentUnit = rigid.velocity;

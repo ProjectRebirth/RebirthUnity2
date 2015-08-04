@@ -3,9 +3,9 @@ using System.Collections;
 
 public class BaseMechanics : MonoBehaviour {
 	public BaseSpriteStats baseStats;
-	public float destroyObjectTime;
+	public float destroyObjectTime;//The amount of time that before the object will be deleted from the game once the timerActive is true.
 	private float destroyObjectTimer;//gives some time before removing the object from the game.
-	private bool timerActive;
+	private bool timerActive;//True when the destroy object timer has started.
 	private float goalWalkSpeed;
 
 	// Use this for initialization
@@ -116,6 +116,8 @@ public class BaseMechanics : MonoBehaviour {
 		return timerActive;
 	}
 
-
+	protected float getGoalWalkSpeed() {
+		return goalWalkSpeed;
+	}
 
 }

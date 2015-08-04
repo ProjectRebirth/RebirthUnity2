@@ -1,0 +1,638 @@
+fileFormatVersion: 2
+guid: 76d53d79eb22791468861386c6377f7c
+timeCreated: 1438105759
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GraysonMovement_0
+    21300002: GraysonMovement_1
+    21300004: GraysonMovement_2
+    21300006: GraysonMovement_3
+    21300008: GraysonMovement_4
+    21300010: GraysonMovement_5
+    21300012: GraysonMovement_6
+    21300014: GraysonMovement_7
+    21300016: GraysonMovement_8
+    21300018: GraysonMovement_9
+    21300020: GraysonMovement_10
+    21300022: GraysonMovement_11
+    21300024: GraysonMovement_12
+    21300026: GraysonMovement_13
+    21300028: GraysonMovement_14
+    21300030: GraysonMovement_15
+    21300032: Leg_Walk_00
+    21300034: Leg_Walk_01
+    21300036: Leg_Walk_02
+    21300038: Leg_Walk_03
+    21300040: Leg_Walk_04
+    21300042: Leg_Walk_05
+    21300044: Leg_Walk_06
+    21300046: Leg_Walk_07
+    21300048: Leg_Walk_08
+    21300050: Leg_Walk_09
+    21300052: Leg_Walk_10
+    21300054: GraysonMovement_27
+    21300056: GraysonMovement_28
+    21300058: GraysonMovement_29
+    21300060: GraysonMovement_30
+    21300062: GraysonMovement_31
+    21300064: GraysonMovement_32
+    21300066: GraysonMovement_33
+    21300068: Leg_Jump_00
+    21300070: Idle_Torso_00
+    21300072: Idle_Torso_01
+    21300074: GraysonMovement_37
+    21300076: GraysonMovement_38
+    21300078: GraysonMovement_39
+    21300080: GraysonMovement_40
+    21300082: GraysonMovement_41
+    21300084: Walk_Torso_00
+    21300086: Walk_Torso_01
+    21300088: Walk_Torso_02
+    21300090: Walk_Torso_03
+    21300092: Walk_Torso_04
+    21300094: Walk_Torso_05
+    21300096: Walk_Torso_06
+    21300098: Walk_Torso_07
+    21300100: Walk_Torso_08
+    21300102: Walk_Torso_09
+    21300104: Walk_Torso_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GraysonMovement_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 378
+        width: 24
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 370
+        width: 111
+        height: 82
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 333
+        width: 35
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_3
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 333
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 333
+        width: 24
+        height: 26
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 335
+        width: 18
+        height: 28
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 333
+        width: 18
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 333
+        width: 19
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 333
+        width: 12
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 336
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_10
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 333
+        width: 12
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_11
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 335
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 333
+        width: 12
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 332
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 333
+        width: 12
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_15
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 334
+        width: 35
+        height: 13
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 272
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: -.100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_02
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: -.100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_03
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_04
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_05
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 272
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: -.100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_06
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 272
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: -.129999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_07
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 272
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: -.100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_08
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_09
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 273
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: .610000014, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_27
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 217
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 217
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_29
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 219
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 219
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_31
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 219
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_32
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 219
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_33
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 219
+        width: 19
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg_Jump_00
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 168
+        width: 19
+        height: 9
+      alignment: 9
+      pivot: {x: .610000014, y: .111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Torso_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 127
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Idle_Torso_01
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 125
+        width: 19
+        height: 26
+      alignment: 9
+      pivot: {x: .610000014, y: -.239999995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 70
+        width: 38
+        height: 33
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_38
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 66
+        width: 19
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 23
+        height: 34
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_40
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 68
+        width: 35
+        height: 19
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GraysonMovement_41
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 67
+        width: 35
+        height: 19
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_00
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_01
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 280
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_02
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_03
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_04
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_05
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 280
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_06
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 280
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.360000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_07
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 280
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_08
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_09
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_Torso_10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 281
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .610000014, y: -.319999993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: dd9d2ed39c5943841895ebd5d177e4f5
+timeCreated: 1438112025
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Walk_07
+    21300002: Walk_06
+    21300004: Walk_05
+    21300006: Walk_04
+    21300008: Walk_03
+    21300010: Walk_02
+    21300012: Walk_01
+    21300014: Walk_00
+    21300016: Attack_01
+    21300018: Attack_00
+    21300020: Dead_03
+    21300022: Dead_02
+    21300024: Dead_01
+    21300026: Dead_00
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Walk_07
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 173
+        width: 82
+        height: 46
+      alignment: 9
+      pivot: {x: .648562193, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_06
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 174
+        width: 85
+        height: 46
+      alignment: 9
+      pivot: {x: .638792872, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_05
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 174
+        width: 84
+        height: 46
+      alignment: 9
+      pivot: {x: .674029768, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_04
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 175
+        width: 82
+        height: 46
+      alignment: 9
+      pivot: {x: .665763319, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_03
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 175
+        width: 80
+        height: 43
+      alignment: 9
+      pivot: {x: .637458026, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_02
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 175
+        width: 81
+        height: 37
+      alignment: 9
+      pivot: {x: .658771276, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_01
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 175
+        width: 78
+        height: 34
+      alignment: 9
+      pivot: {x: .690255165, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk_00
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 175
+        width: 78
+        height: 30
+      alignment: 9
+      pivot: {x: .602999985, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack_01
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 90
+        width: 84
+        height: 43
+      alignment: 9
+      pivot: {x: .606297791, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attack_00
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 90
+        width: 84
+        height: 43
+      alignment: 9
+      pivot: {x: .630974174, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_03
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 36
+        width: 77
+        height: 17
+      alignment: 9
+      pivot: {x: .602999985, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_02
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 36
+        width: 77
+        height: 22
+      alignment: 9
+      pivot: {x: .602999985, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_01
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 38
+        width: 77
+        height: 25
+      alignment: 9
+      pivot: {x: .602999985, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Dead_00
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 35
+        width: 78
+        height: 30
+      alignment: 9
+      pivot: {x: .602999985, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

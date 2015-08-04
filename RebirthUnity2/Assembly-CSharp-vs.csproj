@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\Projectile\BulletAssaultAnimation.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\TempCamController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\TigerController.cs" />
      <Compile Include="Assets\Scripts\GameData\BaseSpriteStats.cs" />
      <Compile Include="Assets\Scripts\GameData\BatStats.cs" />
      <Compile Include="Assets\Scripts\GameData\TigerStats.cs" />
@@ -70,7 +71,9 @@
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\ProjectileMechanics.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IMelee.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IMeleeStats.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IShooter.cs" />
+     <Compile Include="Assets\Scripts\SinglePurposeCode\EnableAttackCollider.cs" />
      <Compile Include="Assets\Scripts\SinglePurposeCode\InAirLogic.cs" />
      <Compile Include="Assets\Scripts\SinglePurposeCode\VectorLogic.cs" />
  <Reference Include="UnityEngine.UI">

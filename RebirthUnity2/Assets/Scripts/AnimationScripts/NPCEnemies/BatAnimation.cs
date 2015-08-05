@@ -8,5 +8,7 @@ public class BatAnimation : MonoBehaviour {
 	void Update () {
 		batAnimator.SetBool ("isDead", batStats.getIsDead ());
 		batAnimator.SetFloat ("verticalSpeed", Mathf.Abs (batStats.getVerticalSpeed ()));
+		batAnimator.SetBool ("isFiring", batStats.getIsFiring ());
 	}
+
 }

@@ -2,47 +2,28 @@
 using System.Collections;
 
 public class TigerStats : BaseSpriteStats, IMeleeStats {
-	public float attackTime;
-	public float attackCoolDown;
-	private float attackTimer;
-	private float coolDownTimer;
+	public MeleeWeaponStats meleeWeapon;
+	public MeleeWeaponMechanics biteMechanics;
 
 
 	protected virtual void Update() {
-		updateAttackTimer ();
-		updateCoolDown ();
-	}
 
-	private void updateCoolDown() {
-
-		if (getIsAttacking ()) {
-			coolDownTimer = attackCoolDown;
-		}
-		coolDownTimer -= Time.deltaTime;
-		if (coolDownTimer < 0) {
-			coolDownTimer = 0;
-		}
-
-	}
-
-	public bool getCoolDownAttack() {
-		return coolDownTimer <= 0;
 	}
 
 	public bool getIsAttacking() {
-		return attackTimer > 0;
+		return meleeWeapon.getIsAttacking();
 	}
 
-	private void updateAttackTimer() {
-		attackTimer -= Time.deltaTime;
-		if (attackTimer < 0) {
-			attackTimer = 0;
-		}
+	public bool getCoolDownAttack() {
+		return meleeWeapon.getIsCooledDown ();
 	}
 
-	public void resetAttackTimer() {
-		attackTimer = attackTime;
+	public MeleeWeaponStats getMeleeWeapon() {
+		return meleeWeapon;
 	}
 
+	public MeleeWeaponMechanics getWeaponMechanics() {
+		return biteMechanics;
+	}
 
 }

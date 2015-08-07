@@ -14,9 +14,7 @@ public class TigerMechanics : BaseMechanics, IMelee {
 
 	public void meleeAttack(bool meleeButtonDown) {
 		if (checkCanMeleeAttack () && meleeButtonDown) {
-			tigerStats.resetAttackTimer();
+			tigerStats.getWeaponMechanics().attack();
 		}
 	}
-
-
 }

@@ -3,5 +3,4 @@ using System.Collections;
 
 public interface IMeleeStats {
 	bool getIsAttacking();
-	void resetAttackTimer();
 }

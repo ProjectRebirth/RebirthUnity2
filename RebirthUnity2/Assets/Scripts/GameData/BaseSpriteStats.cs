@@ -82,6 +82,13 @@ public class BaseSpriteStats : MonoBehaviour{
 			curHealth = health;
 		}
 	}
+	public float getCurHealth(){
+		return curHealth;
+	}
+
+	public float getMaxHealth(){
+		return maxHealth;
+	}
 
 
 }

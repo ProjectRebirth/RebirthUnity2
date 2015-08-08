@@ -1,10 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Controllers\TempCamController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\StatDisp.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameData\BaseSpriteStats.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Controllers\TempCamController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Controllers\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UI\StatDisp.cs" Line="131" Column="38" />
+      <File FileName="Assets\Scripts\GameData\BaseSpriteStats.cs" Line="97" Column="1" />
+      <File FileName="Assets\Scripts\Controllers\TempCamController.cs" Line="34" Column="1" />
+      <File FileName="Assets\Scripts\Controllers\PlayerController.cs" Line="35" Column="1" />
+      <File FileName="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" Line="108" Column="1" />
+      <File FileName="Assets\Scripts\GameData\GraysonStats.cs" Line="29" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

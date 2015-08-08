@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class StatDisp : MonoBehaviour {
 	public GraysonStats graysonStats;
-	//public Weapon weapStats;
+	public BaseGunStats weapStats;
 	public GraysonMechanics cooldownMech;
 	
 	public Image healthBar;
@@ -29,11 +29,11 @@ public class StatDisp : MonoBehaviour {
 	public int currentAmmo;
 	
 	public Font tech;
-	private int c = 0;
+
 	// Use this for initialization
 	void Start () {
-		//initHealth = graysonStats.getCurHealth();
-		//initShield = graysonStats.getCurShield ();
+		initHealth = graysonStats.getCurHealth ();
+		initShield = graysonStats.getCurShield ();
 	}
 	
 	// Update is called once per frame
@@ -42,7 +42,7 @@ public class StatDisp : MonoBehaviour {
 		updateHPShield ();
 		updateEnergy ();
 		if (Input.GetKeyDown (KeyCode.O)) {
-			//graysonStats.takeDamage(11f);
+			graysonStats.takeDamage(11f);
 		}
 		
 	}
@@ -77,14 +77,14 @@ public class StatDisp : MonoBehaviour {
 			ammoTint0.fillAmount = 1f;
 		}
 		
-		//currentAmmo = weapStats.getCurrentAmmo ();
+		currentAmmo = weapStats.getCurrentMagazine();
 		
 	}
 	void updateHPShield(){
-	}
-		/*float s2Frac = (graysonStats.getCurShield () - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2) ;
+	
+		float s2Frac = (graysonStats.getCurShield () - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2) ;
 		float s1Frac = (graysonStats.getCurShield () / (graysonStats.getMaxShield ()/2f) );
-		/float hpFrac = (graysonStats.getCurHealth () / graysonStats.getMaxHealth ());
+		float hpFrac = (graysonStats.getCurHealth () / graysonStats.getMaxHealth ());
 		float initS2Frac = ((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2));
 		float initS1Frac = (initShield / (graysonStats.getMaxShield () / 2));
 		float initHPFrac = initHealth / (graysonStats.getMaxHealth ());
@@ -101,20 +101,20 @@ public class StatDisp : MonoBehaviour {
 		} else {
 			initHealth = graysonStats.getCurHealth ();
 		}
-		//float shield2Diff = Mathf.MoveTowards (((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2)), s2Frac / 2f, Time.deltaTime );
-		//float shield1Diff = Mathf.MoveTowards ((initShield  / (graysonStats.getMaxShield ()/2)), s1Frac / 2f, Time.deltaTime );
-		//float hpDiff = Mathf.MoveTowards (initHealth  / (graysonStats.getMaxHealth()), hpFrac / 2f, Time.deltaTime );
+		float shield2Diff = Mathf.MoveTowards (((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2)), s2Frac / 2f, Time.deltaTime );
+		float shield1Diff = Mathf.MoveTowards ((initShield  / (graysonStats.getMaxShield ()/2)), s1Frac / 2f, Time.deltaTime );
+		float hpDiff = Mathf.MoveTowards (initHealth  / (graysonStats.getMaxHealth()), hpFrac / 2f, Time.deltaTime );
 		
 		if (graysonStats.getCurShield () > 50) {
 			impactBar.fillAmount = .5f;
-			//impactBar2.fillAmount = shield2Diff / 2f;
+			impactBar2.fillAmount = shield2Diff / 2f;
 			impactBar2.fillAmount = initS2Frac / 2f;
 			shieldBar.fillAmount = .5f;
 			shieldBar2.fillAmount = s2Frac / 2f;
 			
 		} else if (graysonStats.getCurShield () <= 50 && graysonStats.getCurShield () > 0) {
 			
-			//impactBar.fillAmount = shield1Diff / 2f;
+			impactBar.fillAmount = shield1Diff / 2f;
 			impactBar.fillAmount = initS1Frac/ 2f;
 			impactBar2.fillAmount = 0;
 			shieldBar.fillAmount = s1Frac / 2f;
@@ -128,44 +128,11 @@ public class StatDisp : MonoBehaviour {
 		
 		healthBar.fillAmount = hpFrac / 2f;
 		damageBar.fillAmount = initHPFrac / 2f;
-		//damageBar.fillAmount = hpDiff / 2f;
-	}*/
+		damageBar.fillAmount = hpDiff / 2f;
+	}
+
 	
 	void updateEnergy(){
 		//energyBar.fillAmount = ((cooldownMech.getCooldownTimer() * - 1f) + cooldownMech.getStrafeCD())/cooldownMech.getStrafeCD();
 	}
-	
-	/*public void OnGUI(){
-		//menu layout
-		string insult = "Austin";
-		
-		Time.timeScale = 0;
-		GUI.BeginGroup (new Rect (20 , Screen.height / 2 + 100 , 1300, 1300));
-		GUI.backgroundColor = Color.white;
-		GUI.skin.label.fontSize = 36;
-		GUI.skin.label.font = GUI.skin.button.font = GUI.skin.box.font = tech;
-		GUI.skin.label.fontSize = GUI.skin.box.fontSize = GUI.skin.button.fontSize = 72;
-		if (c == 0) {
-			insult = "Austin, you COON";
-		} else if (c == 1) {
-			
-			insult = "YOU BIG ASS COON";
-		} else if (c == 2) {
-			
-			insult = "INSERT WORST INSULT HERE";
-		} else if (c == 3) {
-			
-			insult = "Just kidding";
-		}
-		if (GUI.Button (new Rect (0, 0, 1300, 200), insult)) {
-			if(c == 3){
-				c = 0;
-			}else{
-				c++;
-			}
-		}
-		
-		GUI.EndGroup();
-	}
-	*/
 }

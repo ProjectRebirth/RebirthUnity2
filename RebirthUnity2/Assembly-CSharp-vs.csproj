@@ -52,11 +52,13 @@
      <Compile Include="Assets\Scripts\AnimationScripts\NPCEnemies\TigerAnimations.cs" />
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\AssaultRifleAnimations.cs" />
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\Projectile\BulletAssaultAnimation.cs" />
+     <Compile Include="Assets\Scripts\Controllers\EnemyControllers\BatController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\EnemyControllers\TigerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\TempCamController.cs" />
-     <Compile Include="Assets\Scripts\Controllers\TigerController.cs" />
      <Compile Include="Assets\Scripts\GameData\BaseSpriteStats.cs" />
      <Compile Include="Assets\Scripts\GameData\BatStats.cs" />
+     <Compile Include="Assets\Scripts\GameData\GraysonStats.cs" />
      <Compile Include="Assets\Scripts\GameData\TigerStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\Projectiles\ProjectileStats.cs" />
@@ -66,16 +68,20 @@
      <Compile Include="Assets\Scripts\GameMechanics\GraysonMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\TigerMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\AssaultRifle.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\BatBlaster.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\GunLogic.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\BatProjectileMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\BulletAssaultRifle.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\ProjectileMechanics.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IMelee.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IMeleeStats.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IShooter.cs" />
+     <Compile Include="Assets\Scripts\Interfaces\IShooterStats.cs" />
      <Compile Include="Assets\Scripts\SinglePurposeCode\EnableAttackCollider.cs" />
      <Compile Include="Assets\Scripts\SinglePurposeCode\InAirLogic.cs" />
      <Compile Include="Assets\Scripts\SinglePurposeCode\VectorLogic.cs" />
+     <Compile Include="Assets\Scripts\UI\StatDisp.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections.Generic;
 using System.Collections;
 
 public class MeleeWeaponStats : MonoBehaviour {
@@ -8,8 +9,11 @@ public class MeleeWeaponStats : MonoBehaviour {
 	private float attackTimer;
 	public float rawDamage;//The damage that will be given if the player has no shields or buffs
 	public BaseSpriteStats owner;
+	public string enemyTag;
+	private List<GameObject> collidedList;
 
 	void Start() {
+		collidedList = new List<GameObject> ();
 		IMeleeStats checkStats = owner as IMeleeStats;
 		if (owner == null || checkStats == null) {
 			print ("The owner of this weapon is not a melee type sprite");
@@ -54,4 +58,22 @@ public class MeleeWeaponStats : MonoBehaviour {
 		coolDownTimer = coolDownTime;
 	}
 
+	public void addCollidedObject(GameObject collidedObject) {
+		collidedList.Add (collidedObject);
+	}
+
+	public void resetCollidedList() {
+		collidedList.Clear ();
+	}
+
+	public bool checkObjectCollided(GameObject checkObject) {
+		foreach (GameObject obj in collidedList) {
+			if (obj.Equals(checkObject)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
 }
+

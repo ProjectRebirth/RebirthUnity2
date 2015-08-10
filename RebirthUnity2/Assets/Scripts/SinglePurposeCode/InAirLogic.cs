@@ -8,11 +8,14 @@ public class InAirLogic : MonoBehaviour {
 
 
 	void Update() {
-		if (lastCollider != null) {
+		Rigidbody2D rigid = stats.GetComponent<Rigidbody2D> ();
+
+		if (lastCollider != null || Mathf.Abs(rigid.velocity.y) < .00001f) {
 			stats.setInAir (false);
 		} else {
 			stats.setInAir(true);
 		}
+
 	}
 
 

@@ -7,7 +7,6 @@ public class BaseMechanics : MonoBehaviour {
 	private float destroyObjectTimer;//gives some time before removing the object from the game.
 	private bool timerActive;//True when the destroy object timer has started.
 	private float goalWalkSpeed;
-
 	// Use this for initialization
 	protected virtual void Start () {
 		orientPlayer ();

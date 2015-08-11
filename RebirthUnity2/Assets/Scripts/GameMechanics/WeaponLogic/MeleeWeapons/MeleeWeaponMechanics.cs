@@ -34,4 +34,18 @@ public class MeleeWeaponMechanics : MonoBehaviour {
 			meleeStats.addCollidedObject(collider.gameObject);
 		}
 	}
+
+	private void knockBackEnemy(Collider2D collider) {
+		Rigidbody2D rigid = collider.GetComponent<Rigidbody2D> ();
+		BaseSpriteStats spriteStats = meleeStats.owner;
+		float x = meleeStats.knockBackDirection.x;
+		float y = meleeStats.knockBackDirection.y;
+		if (spriteStats.getIsRight ()) {
+			rigid.velocity = VectorLogic.normalizeVector2(x, y) * meleeStats.knockBackVelocity;
+		} else {
+			rigid.velocity = VectorLogic.normalizeVector2(-x, y) * meleeStats.knockBackVelocity;
+		}
+
+
+	}
 }

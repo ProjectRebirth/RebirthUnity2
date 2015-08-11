@@ -10,6 +10,7 @@ public class MeleeWeaponStats : MonoBehaviour {
 	public float rawDamage;//The damage that will be given if the player has no shields or buffs
 	public BaseSpriteStats owner;
 	public float knockBackVelocity;//The speed that the character will jump back from the enemy
+	public Vector2 knockBackDirection;
 	public string enemyTag;//The sprites target that is to be attacked
 	private List<GameObject> collidedList;//Prototype.... This will be a list of objects that have been hit by this weaon
 										  //This is to make sure that we don't hit sprite multiple times.

@@ -7,6 +7,7 @@ public class GraysonStats : BaseSpriteStats, IShooterStats {
 	public BaseGunStats rifleStats;
 	public float curShield;
 	public float maxShield;
+	public Vector2 strafeDirection;
 	public float strafeSpeed;
 	public float strafeCD;//CD stands for cool down!
 	private float currentStrafeCD;
@@ -39,6 +40,24 @@ public class GraysonStats : BaseSpriteStats, IShooterStats {
 		}
 	}
 
+	private void updateStrafeCoolDown() {
+		currentStrafeCD += Time.deltaTime;
+		if (currentStrafeCD > strafeCD) {
+			currentStrafeCD = strafeCD;
+		}
+	}
+
+	public void resetStrafeCoolDown() {
+		currentStrafeCD = 0f;
+	}
+
+	/// <summary>
+	/// This is the ratio between the current strafe cool down and the max strafe cool down.
+	/// </summary>
+	/// <returns>The strafe CD ratio.</returns>
+	public float getStrafeCDRatio() {
+		return currentStrafeCD / strafeCD;
+	}
 
 	public float getCurrentStrafeCoolDown() {
 		return currentStrafeCD;

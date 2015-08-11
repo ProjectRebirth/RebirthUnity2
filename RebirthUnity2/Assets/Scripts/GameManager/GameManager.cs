@@ -1,32 +1,38 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-// Game States
-public enum GameState { INTRO, MAIN_MENU, GAME, CREDITS, WEAP_SWAP }
+public enum GameState
+{
+	INTRO,MAIN_MENU, GAME, CREDITS
+}
 
-public delegate void OnStateChangeHandler();
-
-public class GameManager : MonoBehaviour {
-	protected GameManager() {}
-	private static GameManager instance = null;
-	public event OnStateChangeHandler OnStateChange;
+public class GameManager : MonoBehaviour
+{
 	public  GameState gameState { get; private set; }
-	
-	public static GameManager Instance{
+
+	public static GameManager instance = null;              //Static instance of GameManager which allows it to be accessed by any other script.
+
+	public static GameManager Instance {
 		get {
-			if (GameManager.instance == null ){
-				GameManager.instance = new GameManager();
-				DontDestroyOnLoad(GameManager.instance);
+			if (GameManager.instance == null) {
+				DontDestroyOnLoad (GameManager.instance);
 			}
 			return GameManager.instance;
 		}
-	}
 	
-	public void SetGameState(GameState state){
+	}
+	//Awake is always called before any Start functions
+	void Awake ()
+	{
+	}
+
+	public void setGameState (GameState state)
+	{
 		this.gameState = state;
 	}
-	
-	public void OnApplicationQuit(){
-		GameManager.instance = null;
+
+	//Update is called every frame.
+	void Update ()
+	{
 	}
 }

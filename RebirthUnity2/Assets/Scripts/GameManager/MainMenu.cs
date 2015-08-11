@@ -6,11 +6,11 @@ public class MainMenu : MonoBehaviour {
 	public Font tech;
 	
 	void Awake () {
-		GM = GameManager.Instance;
+		GM = gameObject.AddComponent<GameManager>();
 	}
 	
 	void Start(){
-		GM.SetGameState(GameState.MAIN_MENU);
+		GM.setGameState(GameState.MAIN_MENU);
 	}
 	
 	public void OnGUI(){
@@ -37,7 +37,7 @@ public class MainMenu : MonoBehaviour {
 	
 	
 	public void NewGame(){
-		GM.SetGameState(GameState.GAME);
+		GM.setGameState(GameState.GAME);
 		Application.LoadLevel ("Level_01");
 	}
 	
@@ -46,7 +46,7 @@ public class MainMenu : MonoBehaviour {
 		//Application.LoadLevel ("");
 	}
 	public void ShowCredits(){
-		GM.SetGameState(GameState.CREDITS);
+		GM.setGameState(GameState.CREDITS);
 		Application.LoadLevel ("Credits");
 	}
 	

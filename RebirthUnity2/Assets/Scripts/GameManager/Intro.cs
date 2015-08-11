@@ -6,11 +6,11 @@ public class Intro : MonoBehaviour {
 	GameManager GM;
 	
 	void Awake () {
-		GM = GameManager.Instance;
+		GM = gameObject.AddComponent<GameManager>();
 	}
 	
 	void Start () {
-		GM.SetGameState(GameState.INTRO);
+		GM.setGameState(GameState.INTRO);
 		Invoke("LoadLevel", 3f);
 	}
 	

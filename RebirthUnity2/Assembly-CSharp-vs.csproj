@@ -52,7 +52,10 @@
      <Compile Include="Assets\Scripts\AnimationScripts\NPCEnemies\TigerAnimations.cs" />
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\AssaultRifleAnimations.cs" />
      <Compile Include="Assets\Scripts\AnimationScripts\Weapons\Projectile\BulletAssaultAnimation.cs" />
+     <Compile Include="Assets\Scripts\ArtificialIntelligence\State.cs" />
+     <Compile Include="Assets\Scripts\ArtificialIntelligence\StateMachine.cs" />
      <Compile Include="Assets\Scripts\Controllers\EnemyControllers\BatController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\EnemyControllers\SkeletonController.cs" />
      <Compile Include="Assets\Scripts\Controllers\EnemyControllers\TigerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Controllers\TempCamController.cs" />
@@ -69,6 +72,7 @@
      <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameManager\Intro.cs" />
      <Compile Include="Assets\Scripts\GameManager\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\GameManager\SoundManager.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\BaseMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\BatMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\GraysonMechanics.cs" />

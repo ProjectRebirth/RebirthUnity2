@@ -6,14 +6,14 @@ public class Game : MonoBehaviour {
 	public bool pFlag;
 	
 	GameManager GM;
-	
+
 	void Awake () {
-		GM = GameManager.Instance;
+		GM = gameObject.AddComponent<GameManager>();
 	}
 	
 	void Start(){
 		pFlag = false;
-		GM.SetGameState(GameState.GAME);
+		GM.setGameState(GameState.GAME);
 	}
 	
 	void Update(){
@@ -40,6 +40,7 @@ public class Game : MonoBehaviour {
 			if (GUI.Button (new Rect (0, 80, 290, 60), "Option")) {
 			}
 			if (GUI.Button (new Rect (0, 160, 290, 60), "Quit")) {
+				quitGame();
 			}
 			GUI.EndGroup ();
 		}
@@ -51,4 +52,9 @@ public class Game : MonoBehaviour {
 	public void ResumeGame(){
 		Time.timeScale  = 1;
 	}
+	public void quitGame(){
+		GM.setGameState(GameState.INTRO);
+		Application.LoadLevel("IntroScreen");
+	}
+
 }

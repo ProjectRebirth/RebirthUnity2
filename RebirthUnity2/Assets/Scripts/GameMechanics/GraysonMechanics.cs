@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GraysonMechanics : BaseMechanics, IShooter {
+public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
 	public GraysonStats graysonStats;
 
 	protected override void Start() {
@@ -38,4 +38,23 @@ public class GraysonMechanics : BaseMechanics, IShooter {
 		return !graysonStats.rifleStats.getIsFiring();
 	}
 
+	public void climbObject() {
+		if (graysonStats.getIsLookingUp ()) {
+			graysonStats.climbMechanics.attachClimbable();
+		}
+	}
+
+	public void detatchClimb() {
+		graysonStats.climbMechanics.detatchClimbable ();
+	}
+
+	/// <summary>
+	/// This override just makes it so that when Grayson jumps, it will cause the player to detatch from climbing
+	/// a ladder or rope.
+	/// </summary>
+	/// <param name="jumpButtonDown">If set to <c>true</c> jump button down.</param>
+	public override void jump(bool jumpButtonDown) {
+		detatchClimb ();
+		base.jump (jumpButtonDown);
+	}
 }

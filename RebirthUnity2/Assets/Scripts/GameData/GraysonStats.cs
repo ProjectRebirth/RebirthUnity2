@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GraysonStats : BaseSpriteStats, IShooterStats {
+public class GraysonStats : BaseSpriteStats, IShooterStats, IClimbStats {
 
 	public AssaultRifle assaultRifle;
 	public BaseGunStats rifleStats;
@@ -10,6 +10,7 @@ public class GraysonStats : BaseSpriteStats, IShooterStats {
 	public Vector2 strafeDirection;
 	public float strafeSpeed;
 	public float strafeCD;//CD stands for cool down!
+	public ClimbMechanics climbMechanics;
 	private float currentStrafeCD;
 
 	public bool getIsFiring() {
@@ -45,6 +46,10 @@ public class GraysonStats : BaseSpriteStats, IShooterStats {
 		if (currentStrafeCD > strafeCD) {
 			currentStrafeCD = strafeCD;
 		}
+	}
+
+	public bool getIsClimbing() {
+		return climbMechanics.getIsClimbing ();
 	}
 
 	public void resetStrafeCoolDown() {

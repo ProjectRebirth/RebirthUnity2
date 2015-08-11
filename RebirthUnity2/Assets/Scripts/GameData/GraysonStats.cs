@@ -7,6 +7,9 @@ public class GraysonStats : BaseSpriteStats, IShooterStats {
 	public BaseGunStats rifleStats;
 	public float curShield;
 	public float maxShield;
+	public float strafeSpeed;
+	public float strafeCD;//CD stands for cool down!
+	private float currentStrafeCD;
 
 	public bool getIsFiring() {
 		return rifleStats.getIsFiring ();
@@ -34,5 +37,10 @@ public class GraysonStats : BaseSpriteStats, IShooterStats {
 		if (curHealth < 0) {
 			curHealth = 0;
 		}
+	}
+
+
+	public float getCurrentStrafeCoolDown() {
+		return currentStrafeCD;
 	}
 }

@@ -9,8 +9,10 @@ public class MeleeWeaponStats : MonoBehaviour {
 	private float attackTimer;
 	public float rawDamage;//The damage that will be given if the player has no shields or buffs
 	public BaseSpriteStats owner;
-	public string enemyTag;
-	private List<GameObject> collidedList;
+	public float knockBackVelocity;//The speed that the character will jump back from the enemy
+	public string enemyTag;//The sprites target that is to be attacked
+	private List<GameObject> collidedList;//Prototype.... This will be a list of objects that have been hit by this weaon
+										  //This is to make sure that we don't hit sprite multiple times.
 
 	void Start() {
 		collidedList = new List<GameObject> ();
@@ -52,6 +54,10 @@ public class MeleeWeaponStats : MonoBehaviour {
 	
 	public virtual void resetAttackTimer() {
 		attackTimer = attackTime;
+	}
+
+	public float getKnockbackVelocity() {
+		return knockBackVelocity;
 	}
 
 	public virtual void resetCoolDownTimer() {

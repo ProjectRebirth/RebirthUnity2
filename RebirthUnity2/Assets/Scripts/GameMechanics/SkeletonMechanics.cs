@@ -34,12 +34,12 @@ public class SkeletonMechanics : BaseMechanics, IShooter, IMelee {
 
 
 	public void meleeAttack(bool attackButtonDown) {
-		if (checkCanMeleeAttack ()) {
+		if (checkCanMeleeAttack () && attackButtonDown) {
 			skeletonStats.swordMechanics.attack ();
 		}
 	}
 
 	public bool checkCanMeleeAttack() {
-		return false;
+		return !skeletonStats.getIsAttacking();
 	}
 }

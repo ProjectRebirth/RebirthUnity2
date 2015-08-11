@@ -54,7 +54,7 @@ public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
 	/// </summary>
 	/// <param name="jumpButtonDown">If set to <c>true</c> jump button down.</param>
 	public override void jump(bool jumpButtonDown) {
-		detatchClimb ();
+		//detatchClimb ();
 		base.jump (jumpButtonDown);
 	}
 }

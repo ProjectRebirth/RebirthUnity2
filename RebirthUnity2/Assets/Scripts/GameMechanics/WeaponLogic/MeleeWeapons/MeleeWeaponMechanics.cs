@@ -30,7 +30,7 @@ public class MeleeWeaponMechanics : MonoBehaviour {
 			if (meleeStats.checkObjectCollided(collider.gameObject)) {
 				enemyStats.takeDamage(meleeStats.rawDamage, this.GetComponent<Collider2D>());
 			}
-
+			knockBackEnemy(collider);
 			meleeStats.addCollidedObject(collider.gameObject);
 		}
 	}

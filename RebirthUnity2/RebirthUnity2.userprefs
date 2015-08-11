@@ -1,13 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\StatDisp.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager\Intro.cs">
     <Files>
+      <File FileName="Assets\Scripts\SinglePurposeCode\ClimbMechanics.cs" Line="16" Column="6" />
       <File FileName="Assets\Scripts\UI\StatDisp.cs" Line="88" Column="5" />
       <File FileName="Assets\Scripts\GameData\BaseSpriteStats.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Controllers\TempCamController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Controllers\PlayerController.cs" Line="35" Column="1" />
-      <File FileName="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" Line="108" Column="1" />
+      <File FileName="Assets\Scripts\Controllers\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\GameData\GraysonStats.cs" Line="66" Column="1" />
+      <File FileName="Assets\Scripts\GameManager\GameManager.cs" Line="5" Column="41" />
+      <File FileName="..\..\RebirthUnity\RebirthUnity\Assets\Scripts\World\GameManager.cs" Line="32" Column="3" />
+      <File FileName="Assets\Scripts\GameManager\Intro.cs" Line="18" Column="34" />
+      <File FileName="Assets\Scripts\GameManager\Game.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameManager\MainMenu.cs" Line="41" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

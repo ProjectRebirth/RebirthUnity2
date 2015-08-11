@@ -12,13 +12,13 @@ public class SkeletonMechanics : BaseMechanics, IShooter, IMelee {
 
 
 	public void fireWeapon(bool fireWeaponDown) {
-		if (checkCanFire ()) {
+		if (checkCanFire () && fireWeaponDown) {
 			skeletonStats.cannonMechanics.fireWeapon();
 		}
 	}
 
 	public bool checkCanFire() {
-		return false;
+		return true;
 	}
 
 	public void reloadMain(bool reloadButtonDown) {

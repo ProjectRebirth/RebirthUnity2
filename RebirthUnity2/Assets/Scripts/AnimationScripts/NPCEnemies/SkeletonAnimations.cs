@@ -10,5 +10,6 @@ public class SkeletonAnimations : MonoBehaviour {
 		skeletonAnimator.SetBool ("isWalking", skeletonStats.getIsWalking ());
 		skeletonAnimator.SetBool ("isDead", skeletonStats.getIsDead ());
 		skeletonAnimator.SetBool ("isAttacking", skeletonStats.getIsAttacking ());
+		skeletonAnimator.SetBool ("isFiring", skeletonStats.getIsFiring ());
 	}
 }

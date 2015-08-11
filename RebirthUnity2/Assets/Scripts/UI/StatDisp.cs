@@ -82,10 +82,10 @@ public class StatDisp : MonoBehaviour {
 	}
 	void updateHPShield(){
 	
-		float s2Frac = (graysonStats.getCurShield () - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2) ;
+		//float s2Frac = (graysonStats.getCurShield () - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2) ;
 		float s1Frac = (graysonStats.getCurShield () / (graysonStats.getMaxShield ()/2f) );
 		float hpFrac = (graysonStats.getCurHealth () / graysonStats.getMaxHealth ());
-		float initS2Frac = ((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2));
+		//float initS2Frac = ((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2));
 		float initS1Frac = (initShield / (graysonStats.getMaxShield () / 2));
 		float initHPFrac = initHealth / (graysonStats.getMaxHealth ());
 		
@@ -101,29 +101,29 @@ public class StatDisp : MonoBehaviour {
 		} else {
 			initHealth = graysonStats.getCurHealth ();
 		}
-		float shield2Diff = Mathf.MoveTowards (((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2)), s2Frac / 2f, Time.deltaTime );
+		//float shield2Diff = Mathf.MoveTowards (((initShield - (graysonStats.getMaxShield ()/2f)) / (graysonStats.getMaxShield ()/2)), s2Frac / 2f, Time.deltaTime );
 		float shield1Diff = Mathf.MoveTowards ((initShield  / (graysonStats.getMaxShield ()/2)), s1Frac / 2f, Time.deltaTime );
 		float hpDiff = Mathf.MoveTowards (initHealth  / (graysonStats.getMaxHealth()), hpFrac / 2f, Time.deltaTime );
 		
 		if (graysonStats.getCurShield () > 50) {
 			impactBar.fillAmount = .5f;
-			impactBar2.fillAmount = shield2Diff / 2f;
-			impactBar2.fillAmount = initS2Frac / 2f;
+			//impactBar2.fillAmount = shield2Diff / 2f;
+			//impactBar2.fillAmount = initS2Frac / 2f;
 			shieldBar.fillAmount = .5f;
-			shieldBar2.fillAmount = s2Frac / 2f;
+			//shieldBar2.fillAmount = s2Frac / 2f;
 			
 		} else if (graysonStats.getCurShield () <= 50 && graysonStats.getCurShield () > 0) {
 			
 			impactBar.fillAmount = shield1Diff / 2f;
 			impactBar.fillAmount = initS1Frac/ 2f;
-			impactBar2.fillAmount = 0;
+			//impactBar2.fillAmount = 0;
 			shieldBar.fillAmount = s1Frac / 2f;
-			shieldBar2.fillAmount = 0;
+			//shieldBar2.fillAmount = 0;
 		} else {
 			shieldBar.fillAmount = 0;
-			shieldBar2.fillAmount = 0;
+			//shieldBar2.fillAmount = 0;
 			impactBar.fillAmount = 0;
-			impactBar2.fillAmount = 0;
+			//impactBar2.fillAmount = 0;
 		}
 		
 		healthBar.fillAmount = hpFrac / 2f;

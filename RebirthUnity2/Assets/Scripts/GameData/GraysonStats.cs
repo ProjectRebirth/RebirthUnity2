@@ -13,6 +13,16 @@ public class GraysonStats : BaseSpriteStats, IShooterStats, IClimbStats {
 	public ClimbMechanics climbMechanics;
 	private float currentStrafeCD;
 
+	protected virtual void Start() {
+		strafeDirection = VectorLogic.normalizeVector2 (strafeDirection);
+	}
+
+	protected virtual void Update() {
+		updateStrafeCoolDown ();
+	}
+
+
+
 	public bool getIsFiring() {
 		return rifleStats.getIsFiring ();
 	}
@@ -67,4 +77,13 @@ public class GraysonStats : BaseSpriteStats, IShooterStats, IClimbStats {
 	public float getCurrentStrafeCoolDown() {
 		return currentStrafeCD;
 	}
+
+	public float getHealthRatio() {
+		return curHealth / maxHealth;
+	}
+
+	public float getShieldRatio() {
+		return curShield / maxShield;
+	}
+
 }

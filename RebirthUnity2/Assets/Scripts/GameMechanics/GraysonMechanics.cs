@@ -44,6 +44,31 @@ public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
 		}
 	}
 
+	public void strafe(bool strafeButtonDown) {
+
+		if (checkCanStrafe ()) {
+			if (strafeButtonDown) {
+				launchStrafe();
+			}
+		}
+	}
+
+	void launchStrafe() {
+		Rigidbody2D rigid = GetComponent<Rigidbody2D> ();
+		float x = graysonStats.strafeDirection.x;
+		float y = graysonStats.strafeDirection.y;
+		if (!graysonStats.getIsRight ()) {
+			x = -x;
+		}
+
+		rigid.velocity = new Vector2 (x, y) * graysonStats.strafeSpeed;
+	}
+
+	bool checkCanStrafe() {
+		print (graysonStats.getStrafeCDRatio ());
+		return graysonStats.getStrafeCDRatio () >= 1;
+	}
+
 	public void detatchClimb() {
 		graysonStats.climbMechanics.detatchClimbable ();
 	}

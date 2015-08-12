@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
 
 		mechanics.fireWeapon (Input.GetButton("FireMain"));
 		mechanics.reloadMain (Input.GetButtonDown ("Reload"));
+		mechanics.strafe (Input.GetButton ("Strafe"));
 
 	}
 

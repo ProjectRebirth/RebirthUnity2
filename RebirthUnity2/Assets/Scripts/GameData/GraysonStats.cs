@@ -19,6 +19,9 @@ public class GraysonStats : BaseSpriteStats, IShooterStats, IClimbStats {
 
 	protected virtual void Update() {
 		updateStrafeCoolDown ();
+		if (curShield > maxShield) {
+			curShield = maxShield;
+		}
 	}
 
 

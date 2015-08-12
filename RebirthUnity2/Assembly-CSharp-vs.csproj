@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\GameData\WeaponStats\BaseGunStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\MeleeWeaponStatsa\MeleeWeaponStats.cs" />
      <Compile Include="Assets\Scripts\GameData\WeaponStats\Projectiles\ProjectileStats.cs" />
+     <Compile Include="Assets\Scripts\GameData\WeaponStats\SkeletonBlasterStats.cs" />
      <Compile Include="Assets\Scripts\GameManager\Credits.cs" />
      <Compile Include="Assets\Scripts\GameManager\Game.cs" />
      <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
@@ -81,10 +82,12 @@
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\AssaultRifle.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\BatBlaster.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\GunLogic.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\GunsOrCannons\SkeletonBlaster.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\MeleeWeapons\MeleeWeaponMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\BatProjectileMechanics.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\BulletAssaultRifle.cs" />
      <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\ProjectileMechanics.cs" />
+     <Compile Include="Assets\Scripts\GameMechanics\WeaponLogic\Projectiles\SkeletonProjectile.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IClimber.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IDamageable.cs" />
      <Compile Include="Assets\Scripts\Interfaces\IMelee.cs" />

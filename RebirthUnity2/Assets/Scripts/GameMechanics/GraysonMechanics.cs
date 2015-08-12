@@ -62,6 +62,7 @@ public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
 		}
 
 		rigid.velocity = new Vector2 (x, y) * graysonStats.strafeSpeed;
+		graysonStats.resetStrafeCoolDown ();
 	}
 
 	bool checkCanStrafe() {

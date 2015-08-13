@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
+public class GraysonMechanics : BaseMechanics, IShooter {
 	public GraysonStats graysonStats;
 
 	protected override void Start() {
@@ -38,12 +38,6 @@ public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
 		return !graysonStats.rifleStats.getIsFiring();
 	}
 
-	public void climbObject() {
-		if (graysonStats.getIsLookingUp ()) {
-			graysonStats.climbMechanics.attachClimbable();
-		}
-	}
-
 	public void strafe(bool strafeButtonDown) {
 
 		if (checkCanStrafe ()) {
@@ -66,13 +60,9 @@ public class GraysonMechanics : BaseMechanics, IShooter, IClimbMechanics {
 	}
 
 	bool checkCanStrafe() {
-		print (graysonStats.getStrafeCDRatio ());
 		return graysonStats.getStrafeCDRatio () >= 1;
 	}
 
-	public void detatchClimb() {
-		graysonStats.climbMechanics.detatchClimbable ();
-	}
 
 	/// <summary>
 	/// This override just makes it so that when Grayson jumps, it will cause the player to detatch from climbing

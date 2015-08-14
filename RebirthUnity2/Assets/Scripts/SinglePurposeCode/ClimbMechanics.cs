@@ -3,16 +3,21 @@ using System.Collections;
 
 public class ClimbMechanics : MonoBehaviour {
 	public BaseSpriteStats spriteStats;
+	public float climbSpeed;
 
 	private Collider2D canClimb;//If the sprite is in the collider of a ladder then can climb will not be null.
 	private bool isClimbing;//If the sprite is currently climbing the laddder then this will be set to true.
 
 	void Update() {
 		updateIsClimbing ();
+
+
+	}
+
+	void FixedUpdate() {
 		if (isClimbing) {
 			updateClimbLogic ();
 		}
-
 	}
 
 	/// <summary>
@@ -20,6 +25,20 @@ public class ClimbMechanics : MonoBehaviour {
 	/// all the logic that is involved with the sprite and the climbable object.
 	/// </summary>
 	void updateClimbLogic() {
+
+		float verticalInput = spriteStats.getLastVerticalInput();
+		float x = 0;
+		float y = verticalInput * climbSpeed;
+
+
+		float xPosition = canClimb.transform.position.x;
+		float yPosition = transform.position.y;
+		float zPosition = transform.position.z;
+
+		transform.position = new Vector3 (xPosition, yPosition, zPosition);
+		Rigidbody2D rigid = GetComponent<Rigidbody2D> ();
+		rigid.gravityScale = 0;
+		rigid.velocity = new Vector2 (x, y);
 
 	}
 
@@ -48,14 +67,16 @@ public class ClimbMechanics : MonoBehaviour {
 	}
 
 	void OnTriggerExit2D (Collider2D collider) {
-		if (collider.tag == "Climabable") {
+		if (collider.tag == "Climbable") {
 			detatchClimb();
 		}
 	}
 
-	void detatchClimb() {
+	public void detatchClimb() {
 		canClimb = null;
 		isClimbing = false;
+		Rigidbody2D rigid = GetComponent<Rigidbody2D> ();
+		rigid.gravityScale = 1;
 	}
 
 	public bool getCanClimb() {

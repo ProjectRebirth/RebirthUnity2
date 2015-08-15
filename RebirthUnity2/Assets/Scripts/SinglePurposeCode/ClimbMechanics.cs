@@ -16,6 +16,7 @@ public class ClimbMechanics : MonoBehaviour {
 
 	void FixedUpdate() {
 		if (isClimbing) {
+			spriteStats.setInAir(false);
 			updateClimbLogic ();
 		}
 	}

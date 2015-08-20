@@ -70,7 +70,7 @@ public class GraysonMechanics : BaseMechanics, IShooter {
 	/// </summary>
 	/// <param name="jumpButtonDown">If set to <c>true</c> jump button down.</param>
 	public override void jump(bool jumpButtonDown) {
-		if (graysonStats.getInAir () && jumpButtonDown) {
+		if (graysonStats.getIsClimbing() && jumpButtonDown) {
 			graysonStats.climbMechanics.detatchClimb();
 		}
 		base.jump (jumpButtonDown);

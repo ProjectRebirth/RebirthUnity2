@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour {
 		float verticalMovement = Input.GetAxisRaw ("Vertical");
 		mechanics.moveVertical (verticalMovement);
 		mechanics.moveHorizontal (horizontalMovement);
-		bool jumpKeyDown = Input.GetButton ("Jump");
+		bool jumpKeyDown = Input.GetButtonDown ("Jump");
 		
 		
 		mechanics.jump (jumpKeyDown);
